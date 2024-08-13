@@ -1,0 +1,477 @@
+[
+    {
+        "id": "yandex-carousel",
+        "platform": "yandexmarket",
+        "type": "carousel",
+        "url": "market.yandex.ru/",
+        "replacementBlock": "div[data-apiary-widget-name*='HeroBannerCarousel']",
+        "template": "<div id='yandex-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 300px; min-width: 1350px; width: 1440px; transition: opacity 0.4s; opacity: 0; margin: 0px 50px; border-radius: 16px;'></div></div>"
+    },
+    {
+        "id": "wildberries-carousel",
+        "platform": "wildberries",
+        "type": "carousel",
+        "url": ".wildberries.ru.*",
+        "replacementBlock": "div.main-page__banner.banner",
+        "template": "<div id='wildberries-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 370px;min-height: 370px; min-width: 1370px; transition: opacity 0.4s; opacity: 0; margin: 0px 0px 28px; border-radius: 16px'></div></div>"
+    },
+    {
+        "id": "ozon-carousel",
+        "platform": "ozon",
+        "type": "carousel",
+        "url": "ozon.ru/",
+        "injectionBlock": "#layoutPage div.container",
+        "injectionPlace": "start",
+        "template": "<div id='ozon-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 285px; min-width: 1050px; width: 1416px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
+    },
+    {
+        "id": "lamoda-carousel",
+        "platform": "lamoda",
+        "type": "carousel",
+        "url": "lamoda.ru/.*-home/",
+        "replacementBlock": "main.width-wrapper > div > div[class*='mainBanner']:first-child",
+        "template": "<div id='lamoda-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 300px; min-width: 1050px; width: 1416px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
+    },
+    {
+        "id": "onetwotrip-carousel",
+        "platform": "onetwotrip",
+        "type": "carousel",
+        "url": "onetwotrip.com/",
+        "replacementBlock": "[data-locator='OffersSlider']",
+        "template": "<div id='onetwotrip-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 20px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 500px; min-height: 450px; min-width: 1050px; width: 1415px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
+    },
+    {
+        "id": "tutu-card",
+        "platform": "tutu",
+        "type": "card",
+        "url": "tutu.ru/",
+        "replacementBlock": ".styles__block__3t6kr.styles__rightBlock__2YJBk",
+        "template": "<div id='tutu-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 350px; min-height: 350px; min-width: 450px; width: 450px; transition: opacity 0.4s; opacity: 0; border-radius: 12px'></div></div>"
+    },
+    {
+        "id": "tsum-banner",
+        "platform": "tsum",
+        "type": "banner",
+        "url": "tsum.ru.*",
+        "replacementBlock": "div[data-test-id='singleBannerBlock']",
+        "template": "<div id='tsum-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 590px; min-height: 570px; min-width: 1000px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 12px'></div></div>"
+    },
+    {
+        "id": "aviasales-card",
+        "platform": "aviasales",
+        "type": "card",
+        "url": "aviasales.ru/",
+        "replacementBlock": "[data-test-id='hot-tickets']",
+        "template": "<div id='aviasales-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 388px; min-height: 378px; min-width: 400px; width: 400px; transition: opacity 0.4s; opacity: 0; border-radius: 12px'></div></div>"
+    },
+    {
+        "id": "nadpo-sidebar",
+        "platform": "nadpo",
+        "type": "sidebar",
+        "url": ".*nadpo.ru",
+        "replacementBlock": "div.banner-list",
+        "template": "<div id='nadpo-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 800px;min-height: 500px; min-width: 250px; width: 1200px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "maeo-card",
+        "platform": "maeo",
+        "type": "card",
+        "url": ".*xn--80axh3d.xn--p1ai",
+        "replacementBlock": "div.p-baner",
+        "template": "<div id='maeo-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 8px; margin-top: 12px;'><img src='{{imageMainSrc}}' style='max-height: 140px;min-height: 130px; min-width: 200px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></div></div>"
+    },
+    {
+        "id": "snta-banner",
+        "platform": "snta",
+        "type": "banner",
+        "url": ".snta.ru",
+        "replacementBlock": "div.main-slider",
+        "template": "<div id='snta-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; padding: 0 15px;'><img src='{{imageMainSrc}}' style='max-height: 370px;min-height: 370px; min-width: 200px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></div></div>"
+    },
+    {
+        "id": "avito-rabota-sidebar",
+        "platform": "avito-rabota",
+        "type": "sidebar",
+        "url": ".avito.ru.*rabota",
+        "replacementBlock": "div.js-promo-sticky-container > div[class*='styles-stickyWrap']",
+        "template": "<div id='avito-rabota-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 800px; min-height: 600px; min-width: 300px; width: 350px; margin-top: 20px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "zarplata-sidebar",
+        "platform": "zarplata",
+        "type": "sidebar",
+        "url": ".zarplata.ru",
+        "replacementBlock": "div[id*='adfox']",
+        "template": "<div id='zarplata-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 350px; min-width: 240px; width: 250px; margin-left: 40px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "superjob-banner",
+        "platform": "superjob",
+        "type": "banner",
+        "url": ".superjob.ru",
+        "replacementBlock": "div[data-advplaceid='desktopHomeL'], div[data-advplaceid='desktopHomeS']",
+        "template": "<div id='superjob-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 8px; margin-top: 12px;'><img src='{{imageMainSrc}}' style='max-height: 150px;min-height: 100px; min-width: 200px; width: 1136px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>"
+    },
+    {
+        "id": "hh-banner",
+        "platform": "hh",
+        "type": "banner",
+        "url": ".*hh.ru",
+        "replacementBlock": "div[class*='supernova-dashboard_big-promo']",
+        "template": "<div id='hh-banner' class='supernova-dashboard supernova-dashboard_optimized-menu supernova-dashboard_bg-applicant-supernova-6 supernova-dashboard_big-promo-80' style='background-image: url({{imageMainSrc}}';'><div id='' class='supernova-dashboard-content'><div id='' class='bloko-columns-wrapper'><div id='' class='bloko-column bloko-column_xs-0 bloko-column_s-0 bloko-column_m-0 bloko-column_l-2'></div><div id='' class='bloko-column bloko-column_xs-0 bloko-column_s-8 bloko-column_m-10 bloko-column_l-10'><div id='' class='supernova-dashboard-search supernova-dashboard-search_with-big-promo'><h3 data-qa='bloko-header-3' class='bloko-header-promo-3'>Работа&nbsp;найдётся для&nbsp;каждого</h3><div id='' class='bloko-v-spacing bloko-v-spacing_base-6'></div><form id='supernova_search_form' action='/search/vacancy' data-hh-tab-id='searchVacancy' class='HH-VacancyMap-Form' method='GET'><div id='' class='supernova-search-group'><div id='' class='supernova-search-group__input'><fieldset class='bloko-input-text-wrapper'><input id='a11y-search-input' placeholder='Профессия, должность или компания' name='text' autocomplete='off' data-qa='search-input' type='text' class='bloko-input-text bloko-input-text_scale-large' value=''></fieldset></div><fieldset data-search-type='searchVacancy'><input type='hidden' name='area' value='4'></fieldset><input type='hidden' name='hhtmFrom' value='main'><div id='' class='supernova-search-group__submit supernova-search-group__submit_desktop-only supernova-search-group__submit_wide' data-qa='search-button'><button class='bloko-button bloko-button_kind-primary bloko-button_scale-large bloko-button_stretched' type='submit' data-qa='search-button'><span><span class='supernova-search-submit-icon'><span class='supernova-icon supernova-icon_search'></span></span><span class='supernova-search-submit-text'>Найти работу</span></span></button></div><div id='' class='supernova-navi-advanced-search-icon'><a class='bloko-button bloko-button_icon-only-large bloko-button_scale-large' data-qa='advanced-search' href='/search/vacancy/advanced?hhtmFrom=main'><span class='bloko-button__icon'><svg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg' class='bloko-icon bloko-icon_initial-gray-80'><path d='M3.33325 5.33337L8.66659 5.33337M8.66659 5.33337C8.66659 6.43794 9.56202 7.33337 10.6666 7.33337C11.7712 7.33337 12.6666 6.43794 12.6666 5.33337C12.6666 4.2288 11.7712 3.33337 10.6666 3.33337C9.56202 3.33337 8.66659 4.22881 8.66659 5.33337ZM7.33325 10.6667L12.6666 10.6667M7.33325 10.6667C7.33325 11.7713 6.43782 12.6667 5.33325 12.6667C4.22868 12.6667 3.33325 11.7713 3.33325 10.6667C3.33325 9.56214 4.22868 8.66671 5.33325 8.66671C6.43782 8.66671 7.33325 9.56214 7.33325 10.6667Z' stroke='var(--bloko-icon-color, var(--bloko-icon-color-default))' stroke-width='1.33333' stroke-linecap='round' stroke-linejoin='round'></path></svg></span></a></div></div></form><div id='' class='bloko-v-spacing bloko-v-spacing_base-6'></div><a class='supernova-dashboard-link-switch' href='/employer?hhtmFrom=main'><span class='bloko-text bloko-text_large'>Я ищу сотрудника</span></a></div></div><div id='' class='bloko-column bloko-column_xs-0 bloko-column_s-8 bloko-column_m-12 bloko-column_l-16'><div id='' class='supernova-dashboard-footer supernova-dashboard-footer_with-big-promo' style='padding: 115px 0px'></div></div></div></div></div> "
+    },
+    {
+        "id": "dzen-card",
+        "platform": "dzen",
+        "type": "card",
+        "url": "(.*dzen.ru)",
+        "replacementBlock": "div.zenad-card-rtb__ad",
+        "template": "<div id='dzen-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 313.5px; min-height: 313px; min-width: 322.6px; width: 360px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></div></div>"
+    },
+    {
+        "id": "pikabu-sidebar",
+        "platform": "pikabu",
+        "type": "sidebar",
+        "url": ".*pikabu.ru",
+        "replacementBlock": "div.sidebar-block_placeholder:nth-child(4)",
+        "template": "<div id='pikabu-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 550px; min-height: 500px; min-width: 250px; width: 300px; margin-top: 16px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "yandex-banner",
+        "platform": "yandex",
+        "type": "banner",
+        "url": ".*ya(ndex.ru|.ru).*",
+        "injectionBlock": "div.serp-list_right_yes",
+        "template": "<div id='yandex-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px;min-height: 200px; min-width: 560px; width: 568px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></div></div>"
+    },
+    {
+        "id": "vk-sidebarr",
+        "platform": "vk",
+        "type": "sidebar",
+        "url": ".*vk1(.ru|.com).*",
+        "injectionBlock": "#react_rootLeftMenuRoot",
+        "injectionPlace": "end",
+        "template": "<div id='vk-sidebarr' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin: 15px 0px -15px; padding: 0 0 13px; border-bottom: 1px solid var(--separator_common);'><img src='{{imageMainSrc}}' style='max-height: 525px;min-height: 320px; min-width: 140px; width: 145px; transition: opacity 0.4s; opacity: 0; margin-right: 8px; border-radius: 8px;'></div></div>"
+    },
+    {
+        "id": "mail-ru-banner",
+        "platform": "mail-ru",
+        "type": "banner",
+        "url": ".*mail.ru",
+        "replacementBlock": "div.micro-widgets + div.tgb-wrapper",
+        "template": "<div id='mail-ru-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 200px;min-height: 150px; min-width: 650px; width: 1200px;margin: 16px 0 2px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></div></div>"
+    },
+    {
+        "id": "eldorado-roboty-pylesosy",
+        "platform": "eldorado-roboty-pylesosy",
+        "type": "carousel",
+        "url": ".eldorado.ru/c/roboty-pylesosy.*",
+        "replacementBlock": "div[data-dy='category-slider'] + section",
+        "template": "<div id='eldorado-roboty-pylesosy' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-bottom: 36px;'><img src='{{imageMainSrc}}' style='max-height: 110px; min-height: 105px; min-width: 999px; width: 1200px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "mvideo-pylesosy-carousel",
+        "platform": "mvideo-pylesosy",
+        "type": "carousel",
+        "url": ".mvideo.ru/pylesosy-i-aksessuary.*",
+        "replacementBlock": "#categoryBannerCarouselDynamicAreaBlock",
+        "template": "<div id='mvideo-pylesosy-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 336px; min-height: 330px; min-width: 900px; width: 913px; transition: opacity 0.4s; opacity: 0; border-radius: 14px;'></div></div>"
+    },
+    {
+        "id": "hh-vacancy-sidebar",
+        "platform": "hh-vacancy",
+        "type": "sidebar",
+        "url": ".*hh.ru/vacancy/.*",
+        "replacementBlock": "div.vacancy-sidebar-column > div:nth-child(1) > div:nth-child(1) > div.banner-place_show",
+        "template": "<div id='hh-vacancy-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 800px; min-height: 600px; min-width: 300px; width: 300px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "zarplata-vacancy-banner",
+        "platform": "zarplata-vacancy",
+        "type": "banner",
+        "url": ".zarplata.ru/vacancy",
+        "replacementBlock": "div[data-test='vacancies-list-container'] [id*='adfox']",
+        "template": "<div id='zarplata-vacancy-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 120px;min-height: 110px; min-width: 900px; width: 915px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "superjob-vacancy-sidebar",
+        "platform": "superjob-vacancy",
+        "type": "sidebar",
+        "url": ".superjob.ru/vakansii.*",
+        "replacementBlock": "div[id*='adfox']",
+        "template": "<div id='superjob-vacancy-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='height: 470px; min-height: 450px; min-width: 235px; width: 240px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "zarplata-banner",
+        "platform": "zarplata",
+        "type": "banner",
+        "url": ".zarplata.ru1",
+        "replacementBlock": "div[class*='advertising-wrapper'] div[id*='adfox']",
+        "template": "<div id='zarplata-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 125.6px; min-height: 125px; min-width: 1200px; width: 1219px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "gadalkindom-banner",
+        "platform": "gadalkindom",
+        "type": "banner",
+        "url": ".*gadalkindom.ru",
+        "injectionBlock": "section.maincontent > div.container > div.row > div > div.zagolovok",
+        "injectionPlace": "end",
+        "template": "<div id='gadalkindom-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 10px;'><img src='{{imageMainSrc}}' style='max-height: 210px; min-height: 165px; min-width: 795px; width: 800px; transition: opacity 0.4s; opacity: 0; margin-right: 46px'></div></div>"
+    },
+    {
+        "id": "astro7-card",
+        "platform": "astro7",
+        "type": "card",
+        "url": ".*astro7.ru.*",
+        "replacementBlock": "#mycarousel",
+        "template": "<div id='astro7-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-bottom: 69px;'><img src='{{imageMainSrc}}' style='max-height: 389px; min-height: 380px; min-width: 740px; width: 750px; transition: opacity 0.4s; opacity: 0; border-radius: 2px;'></div></div>"
+    },
+    {
+        "id": "horo-mail-sidebar",
+        "platform": "horo-mail",
+        "type": "sidebar",
+        "url": ".*horo.mail.ru.*",
+        "replacementBlock": "div[data-logger-parent='sidebarRight'] > div:first-child",
+        "template": "<div id='horo-mail-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; background: #fff; padding: 19px 0px; margin-bottom: 20px; border-radius: 2px'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 390px; min-width: 275px; width: 280px; transition: opacity 0.4s; opacity: 0; border-radius: 2px;'></div></div>"
+    },
+    {
+        "id": "horoscopes-rambler-banner",
+        "platform": "horoscopes-rambler",
+        "type": "banner",
+        "url": ".*horoscopes.rambler.ru.*",
+        "replacementBlock": "div.billboard-wrapper",
+        "template": "<div id='horoscopes-rambler-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 350px; min-height: 250px; min-width: 1200px; width: 1600px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "magya-online-sidebar",
+        "platform": "magya-online",
+        "type": "sidebar",
+        "url": ".*magya-online.ru.*",
+        "replacementBlock": "div.opis_div > div.r_mob_300",
+        "template": "<div id='magya-online-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding: 0px 0px 10px 0px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 390px; min-width: 240px; width: 340px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "irecommend-catalog-sidebar",
+        "platform": "irecommend-catalog",
+        "type": "sidebar",
+        "url": ".*irecommend.ru/catalog.*",
+        "replacementBlock": "#b_sidebar1",
+        "template": "<div id='irecommend-catalog-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 610px; min-height: 600px; min-width: 295px; width: 300px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "kosmetista-sidebar",
+        "platform": "kosmetista",
+        "type": "sidebar",
+        "url": ".*kosmetista.ru",
+        "replacementBlock": "div.sidebar #float_top",
+        "template": "<div id='kosmetista-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 250px; min-width: 330px; width: 336px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "mercury-carousel",
+        "platform": "mercury",
+        "type": "carousel",
+        "url": ".mercury.ru",
+        "replacementBlock": "div.content--index > div.swiper-container-horizontal",
+        "template": "<div id='mercury-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding: 5px;'><img src='{{imageMainSrc}}' style='max-height: 700px; min-height: 545px; min-width: 1370px; width: 1600px; transition: opacity 0.4s; opacity: 0; margin-right: 10px; border-radius: 5px;'></div></div>"
+    },
+    {
+        "id": "togas-carousel",
+        "platform": "togas",
+        "type": "carousel",
+        "url": ".togas.com.*",
+        "replacementBlock": "div.header-slider-container",
+        "template": "<div id='togas-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 715px; min-height: 712px; min-width: 1370px; width: 1519px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "bork-carousel",
+        "platform": "bork",
+        "type": "carousel",
+        "url": ".bork.ru",
+        "replacementBlock": "section.intro-slider",
+        "template": "<div id='bork-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 710px; min-height: 700px; min-width: 1510px; width: 1515px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "askona-carousel",
+        "platform": "askona",
+        "type": "carousel",
+        "url": ".askona.ru",
+        "replacementBlock": "div[class*='MainSlider_main-swiper']",
+        "template": "<div id='askona-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 395px; min-width: 1370px; width: 1519px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "goldapple-carousel",
+        "platform": "goldapple",
+        "type": "carousel",
+        "url": ".*goldapple.ru",
+        "replacementBlock": "#__layout > div > main > button + section",
+        "template": "<div id='goldapple-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 700px; min-height: 522px; min-width: 1440px; width: 1920px; margin-bottom: 10px; transition: opacity 0.4s; opacity: 0; object-fit: cover;'></div></div>"
+    },
+    {
+        "id": "flawery-banner",
+        "platform": "flawery",
+        "type": "banner",
+        "url": ".*flawery.ru/moscow.*",
+        "injectionBlock": "div.catalog",
+        "injectionPlace": "start",
+        "template": "<div id='flawery-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 430px; min-height: 420px; min-width: 1000px; width: 1170px; transition: opacity 0.4s; opacity: 0;margin-top: 20px; border-radius: 16px;'></div></div>"
+    },
+    {
+        "id": "flowwow-banner",
+        "platform": "flowwow",
+        "type": "banner",
+        "url": ".*flowwow.com1/moscow.*",
+        "injectionBlock": "div.tab-content",
+        "injectionPlace": "start",
+        "template": "<div id='flowwow-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 330px; min-height: 320px; min-width: 450px; width: 665px; transition: opacity 0.4s; opacity: 0; margin: 0px 3px 20px 0px; border-radius: 16px;'></div></div>"
+    },
+    {
+        "id": "megacvet24-carousel",
+        "platform": "megacvet24",
+        "type": "carousel",
+        "url": ".*megacvet24.ru",
+        "replacementBlock": "div.banner-wrapper",
+        "template": "<div id='megacvet24-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 620px; min-height: 600px; min-width: 820px; width: 850px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "ok-banner",
+        "platform": "ok",
+        "type": "banner",
+        "url": ".*ok.ru/feed.*",
+        "injectionBlock": "#hook_Block_MainFeedsContent",
+        "injectionPlace": "start",
+        "template": "<div id='ok-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 270px; min-height: 260px; min-width: 570px; width: 580px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></div></div>"
+    },
+    {
+        "id": "mail-yandex-sidebar",
+        "platform": "mail-yandex",
+        "type": "sidebar",
+        "url": ".*mail.yandex.ru.*",
+        "replacementBlock": "#js-main-rtb",
+        "template": "<div id='mail-yandex-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 450px; min-height: 340px; min-width: 270px; width: 280px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    },
+    {
+        "id": "dzen-articles-banner",
+        "platform": "dzen-articles",
+        "type": "banner",
+        "url": ".*dzen.ru/articles",
+        "injectionBlock": "div._feed-type_article_showcase",
+        "injectionPlace": "start",
+        "template": "<div id='dzen-articles-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 332px; min-height: 330px; min-width: 740px; width: 1240px; margin-top: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></div></div>"
+    },
+    {
+        "id": "google-banner",
+        "platform": "google",
+        "type": "banner",
+        "url": ".google.(com|ru).*",
+        "injectionBlock": "#res",
+        "injectionPlace": "start",
+        "template": "<div id='google-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px;min-height: 200px; min-width: 652px; width: 568px; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></div></div>"
+    },
+    {
+      "id": "vk-news-banner",
+      "platform": "vk-news",
+      "type": "banner",
+      "url": ".*vk.(com|ru)/feed",
+      "replacementBlock": "div._ads_block_data_w",
+      "template": "<div id='vk-news-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 750px;min-height: 550px; min-width: 545px; width: 550px; transition: opacity 0.4s; opacity: 0; border-radius: 13px;'></div></div>"
+  },
+  {
+      "id": "mail-videos-card",
+      "platform": "mail-videos",
+      "type": "card",
+      "url": ".*mail.ru",
+      "replacementBlock": "div.zenad-card-rtb__ad",
+      "template": "<div id='mail-videos-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 350px; min-height: 316px; max-width: 430px; width: 366px; transition: opacity 0.4s; opacity: 0; border-radius: 17px;'></div></div>"
+  },
+  {
+      "id": "auto-ru-banner",
+      "platform": "auto-ru",
+      "type": "banner",
+      "url": ".*auto.ru.*",
+      "replacementBlock": "vertisads-top.VertisAds_place_top",
+      "template": "<div id='auto-ru-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 260px;min-height: 250px; min-width: 1200px; width: 1270px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+  },
+  {
+      "id": "aliexpress-carousel",
+      "platform": "aliexpress",
+      "type": "carousel",
+      "url": ".*aliexpress.ru",
+      "replacementBlock": "div[class*='snow-container_SnowContainer__container'] > div[class*='RedModuleBanner_RedModuleBanner__container']",
+      "template": "<div id='aliexpress-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 250px; min-width: 1300px; width: 1376px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+  },
+  {
+      "id": "dns-banner",
+      "platform": "dns",
+      "type": "banner",
+      "url": ".dns-shop.ru.*",
+      "injectionBlock": "#base-header",
+      "injectionPlace":"start",
+      "template": "<div id='dns-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100%;min-height: 200px; min-width: 1200px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>"
+  },
+  {
+      "id": "mvideo-carousel",
+      "platform": "mvideo",
+      "type": "carousel",
+      "url": ".mvideo.ru",
+      "replacementBlock": "mvid-promotions-block.promo",
+      "template": "<div id='mvideo-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 280px;min-height: 270px; min-width: 950px; width: 960px; border-radius: 10px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+  },
+  {
+      "id": "interia-banner",
+      "platform": "interia",
+      "type": "banner",
+      "url": ".interia.pl.*",
+      "replacementBlock": "body > div.ad-container.wide-ad > div.inner-ad",
+      "template": "<div id='interia-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 200px; min-width: 1200px; width: 1422px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+  },
+  {
+      "id": "onet-banner",
+      "platform": "onet",
+      "type": "banner",
+      "url": ".onet.pl",
+      "replacementBlock": "div.PageGroup_wide__visie > div[class*='AdSlotPlaceholder_placeholder']",
+      "template": "<div id='onet-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 200px; min-width: 1200px; width: 1260px; margin-bottom: 10px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+  },
+  {
+      "id": "sports-card",
+      "platform": "sports",
+      "type": "card",
+      "url": ".sports.ru",
+      "injectionBlock": "aside.columns-layout__right",
+      "injectionPlace":"start",
+      "template": "<div id='sports-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 550px; min-height: 500px; min-width: 295px; width: 300px; transition: opacity 0.4s; opacity: 0; margin-bottom: 10px;'></div></div>"
+  },
+  {
+      "id": "championat-banner",
+      "platform": "championat",
+      "type": "banner",
+      "url": ".championat.com",
+      "replacementBlock": "#top_desk",
+      "template": "<div id='championat-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px; min-height: 240px; min-width: 1070px; width: 1080px; margin-bottom: 10px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+  },
+  {
+      "id": "sport24-card",
+      "platform": "sport24",
+      "type": "card",
+      "url": ".sport24.ru",
+      "replacementBlock": "div[class*='desktop-order'] > div > div:first-child > a",
+      "template": "<div id='sport24-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 360px; min-height: 350px; min-width: 230px; width: 240px; transition: opacity 0.4s; opacity: 0; border-radius: 4px'></div></div>"
+  },
+  {
+      "id": "citilink-card",
+      "platform": "citilink",
+      "type": "card",
+      "url": ".citilink.ru",
+      "replacementBlock": "div[data-meta-name='BannersLayout'] > div:last-child",
+      "template": "<div id='citilink-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 350; min-height: 340px; min-width: 270px; width: 272px; transition: opacity 0.4s; opacity: 0'></div></div>"
+  },
+  {
+    "id": "sutochno-banner",
+    "platform": "sutochno",
+    "type": "banner",
+    "url": "sutochno.ru",
+    "replacementBlock": ".bookin-app",
+    "template": "<div id='citilink-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 40px'><img src='{{imageMainSrc}}' style='max-height: 179px; min-height: 104px; min-width: 270px; width: 1160px; transition: opacity 0.4s ease 0s; opacity: 1; border-radius: 20px;'></div>"
+}
+  ]
+  
