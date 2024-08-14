@@ -504,5 +504,13 @@
       "url": ".exist.ru",
       "replacementBlock": "[id*=\"adfox\"]",
       "template": "<div id='exist-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 400px; min-width: 240px; width: 240px; transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5;'></div></div>"
+  },
+  {
+      "id": "sportmaster-banner",
+      "platform": "sportmaster",
+      "type": "banner",
+      "url": ".sportmaster.ru",
+      "replacementBlock": "[data-selenium=\"main-banner-under\"]",
+      "template": "<div id='sportmaster-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 136px; min-height: 100px; min-width: 770.4px; width: 1543px; transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5;'></div></div>"
   }
 ]
