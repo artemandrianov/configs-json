@@ -3,8 +3,8 @@
         "id": "yandex-carousel",
         "platform": "yandexmarket",
         "type": "carousel",
-        "url": "market.yandex.ru/",
-        "replacementBlock": "div[data-apiary-widget-name*='HeroBannerCarousel']",
+        "url": "market.yandex.ru/$",
+        "replacementBlock": "div[data-apiary-widget-name*=HeroBannerCarousel]",
         "template": "<div id='yandex-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 300px; min-width: 1350px; width: 1440px; transition: opacity 0.4s; opacity: 0; margin: 0px 50px; border-radius: 16px;'></div></div>"
     },
     {
@@ -480,6 +480,14 @@
     "url": "2gis.ru.*",
     "replacementBlock": "#root > div > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div > div > div > div > div > div > div > div > div > div:last-child > div:last-child",
     "template": "<div id='2gis-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 286px; min-height: 220px; min-width: 270px; width: 336px; transition: opacity 0.4s ease 0s; opacity: 1;'></div>"
+  },
+  {
+    "id": "megamarket-carousel",
+    "platform": "megamarket",
+    "type": "carousel",
+    "url": "megamarket.ru",
+    "replacementBlock": ".base-swiper__slide-item.current.big-slider__slide.big-slider__slide_new",
+    "template": "<div id='megamarket-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-right: 24px'><img src='{{imageMainSrc}}' style='max-height: 373px; min-height: 150px; min-width: 700px; width: 1100px; transition: opacity 0.4s ease 0s; opacity: 1; border-radius: 32px;'></div>"
   }
   ]
   
