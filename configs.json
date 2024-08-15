@@ -528,5 +528,13 @@
       "url": "rutracker.org/forum/index.php",
       "replacementBlock": "#sidebar1_wrap > .bn-idx:first-child",
       "template": "<div id='rutracker-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-top: 7px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 400px; min-width: 240px; width: 240px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+  },
+  {
+      "id": "drom-card",
+      "platform": "drom",
+      "type": "card",
+      "url": "baza.drom.ru",
+      "replacementBlock": ".native > tr[data-source=\"actual\"]:nth-child(2)",
+      "template": "<div id='drom-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-top: 7px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 400px; min-width: 240px; width: 240px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   }
 ]
