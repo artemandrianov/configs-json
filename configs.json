@@ -520,5 +520,13 @@
       "url": "amedia.site",
       "replacementBlock": ".animefilm",
       "template": "<div id='vseinstrumenti-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-bottom: 50px'><img src='{{imageMainSrc}}' style='max-height: 120px; min-height: 110px; min-width: 900px; width: 1000px; transition: opacity 0.4s; opacity: 0; border-radius: 10px;'></div></div>"
+  },
+  {
+      "id": "rutracker-banner",
+      "platform": "rutracker",
+      "type": "banner",
+      "url": "rutracker.org/forum/index.php",
+      "replacementBlock": "#sidebar1_wrap > .bn-idx:first-child",
+      "template": "<div id='rutracker-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-top: 7px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 400px; min-width: 240px; width: 240px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   }
 ]
