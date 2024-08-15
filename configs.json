@@ -560,5 +560,13 @@
       "url": ".dns-shop.ru",
       "replacementBlock": ".stories__content .banner",
       "template": "<div id='dns-carousel' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 221px; min-height: 221px; min-width: 352px; width: 372px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></div></div>"
-  }
+  },
+  {
+    "id": "lemanapro-carousel",
+    "platform": "lemanapro",
+    "type": "carousel",
+    "url": "lemanapro.ru/",
+    "replacementBlock": "[data-testid=theme-provider] [data-qa-offer-carousel]:nth-child(2) [class*=main_page] .extendMobilePadding[data-qa-carousel]",
+    "template": "<div id='lemanapro-carousel' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='height: 268px; min-height: 150px; min-width: 700px; width: 1180px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div>"
+}
 ]
