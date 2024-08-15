@@ -544,5 +544,13 @@
       "url": "news.mail.ru",
       "replacementBlock": "center",
       "template": "<div id='mail-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 90px; min-height: 90px; min-width: 1260px; width: 1260px; transition: opacity 0.4s; opacity: 0;box-shadow: 0px 4px 12px 0px rgba(18, 25, 43, 0.12); border-radius: 12px;'></div></div>"
+  },
+  {
+      "id": "animego-banner",
+      "platform": "animego",
+      "type": "banner",
+      "url": "animego.org",
+      "replacementBlock": ".mb-3 > div[id*=\"yandex_rtb_R\"]",
+      "template": "<div id='mail-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 290px; min-height: 300px; min-width: 240px; width: 250px; transition: opacity 0.4s; opacity: 0; border: 1px solid rgba(0, 0, 0, .125);;'></div></div>"
   }
 ]
