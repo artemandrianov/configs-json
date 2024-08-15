@@ -576,5 +576,13 @@
     "url": "ostrovok.ru/",
     "replacementBlock": ".homepage-emailcollector-wrapper .zenemailcollectorV2",
     "template": "<div id='ostrovok-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='height: 252px; min-height: 150px; min-width: 700px; width: 1000px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></div>"
+  },
+  {
+    "id": "lenta-banner",
+    "platform": "lenta",
+    "type": "banner",
+    "url": "lenta.ru",
+    "replacementBlock": "#billboard",
+    "template": "<div id='lenta-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='height: 250px; min-height: 150px; min-width: 700px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-bottom-color: rgb(41, 41, 41); border-bottom-style: none;'></div>"
   }
 ]
