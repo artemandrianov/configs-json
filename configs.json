@@ -635,5 +635,13 @@
     "injectionBlock": "div[data-bulletin-list]",
     "injectionPlace":"start",
     "template": "<div id='auto-drom-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 244px; min-height: 240px; min-width: 720px; width: 724px; transition: opacity 0.4s; opacity: 0; margin: 20px 0px 20px 0px; border-radius: 15px;'></div></div>"
+  },
+  {
+      "id": "gismeteo-banner",
+      "platform": "gismeteo",
+      "type": "banner",
+      "url": ".gismeteo.ru",
+      "replacementBlock": "[data-column=\"C2\"] > .section.section-media:first-child",
+      "template": "<div id='gismeteo-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 620px; min-height: 600px; min-width: 320px; width: 320px; transition: opacity 0.4s; opacity: 0; border-radius: 6px;'></div></div>"
   }
 ]
