@@ -617,5 +617,14 @@
     "injectionBlock": "div.global-container > div.content-right-column > center:first-child > div.menusidebar",
     "injectionPlace":"end",
     "template": "<div id='torrents-igruha-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 270px; min-width: 190px; width: 200px; transition: opacity 0.4s; opacity: 0; margin-top: 16px; border-radius: 3px;'></div></div>"
+  },
+  {
+    "id": "byruthub-card",
+    "platform": "byruthub",
+    "type": "card",
+    "url": ".*byruthub.org",
+    "injectionBlock": "aside.right-nav",
+    "injectionPlace":"start",
+    "template": "<div id='byruthub-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 270px; min-width: 290px; width: 296px; transition: opacity 0.4s; opacity: 0; margin-bottom: 15px; border-radius: 8px;'></div></div>"
   }
 ]
