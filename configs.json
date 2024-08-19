@@ -643,5 +643,14 @@
       "url": ".gismeteo.ru",
       "replacementBlock": "[data-column=\"C2\"] > .section.section-media:first-child",
       "template": "<div id='gismeteo-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 620px; min-height: 600px; min-width: 320px; width: 320px; transition: opacity 0.4s; opacity: 0; border-radius: 6px;'></div></div>"
+  },
+  {
+      "id": "drom-banner",
+      "platform": "drom",
+      "type": "banner",
+      "url": "www.drom.ru",
+      "injectionBlock": "[data-sticky-banner-cont=\"true\"]",
+      "injectionPlace":"start",
+      "template": "<div id='gismeteo-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; margin-bottom: 40px;'><img src='{{imageMainSrc}}' style='max-height: 340px; min-height: 340px; min-width: 200px; width: 240px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></div></div>"
   }
 ]
