@@ -584,5 +584,13 @@
     "url": "lenta.ru",
     "replacementBlock": "#billboard",
     "template": "<div id='lenta-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='height: 250px; min-height: 150px; min-width: 700px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-bottom-color: rgb(41, 41, 41); border-bottom-style: none;'></div>"
+  },
+  {
+    "id": "avito-banner",
+    "platform": "avito",
+    "type": "banner",
+    "url": "avito.ru",
+    "replacementBlock": "#vr_top",
+    "template": "<div id='avito-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='height: 600px; min-height: 200px; min-width: 100px; width: 300px; transition: opacity 0.4s; opacity: 0; border-bottom-color: rgb(41, 41, 41); border-bottom-style: none;'></div>"
   }
 ]
