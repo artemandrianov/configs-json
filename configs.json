@@ -11,9 +11,9 @@
         "id": "wildberries-carousel",
         "platform": "wildberries",
         "type": "carousel",
-        "url": ".wildberries.ru.*",
+        "url": ".wildberries.ru",
         "replacementBlock": "div.main-page__banner.banner",
-        "template": "<div id='wildberries-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 370px;min-height: 370px; min-width: 1370px; transition: opacity 0.4s; opacity: 0; margin: 0px 0px 28px; border-radius: 16px'></div></div>"
+        "template": "<div id='wildberries-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 370px; min-height: 188px; min-width: 660px; width: 1440px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
     },
     {
         "id": "ozon-banner",
@@ -148,7 +148,7 @@
         "id": "vk-sidebarr",
         "platform": "vk",
         "type": "sidebar",
-        "url": ".*vk1(.ru|.com).*",
+        "url": ".*vk(.ru|.com).*",
         "injectionBlock": "#react_rootLeftMenuRoot",
         "injectionPlace": "end",
         "template": "<div id='vk-sidebarr' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin: 15px 0px -15px; padding: 0 0 13px; border-bottom: 1px solid var(--separator_common);'><img src='{{imageMainSrc}}' style='max-height: 525px;min-height: 320px; min-width: 140px; width: 145px; transition: opacity 0.4s; opacity: 0; margin-right: 8px; border-radius: 8px;'></div></div>"
