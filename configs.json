@@ -669,5 +669,13 @@
     "url": ".*ya(ndex.ru|.ru)",
     "replacementBlock": "div.body__content > div.banner",
     "template": "<div id='yandex-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 105px;min-height: 81.5px; min-width: 660px; width: 845px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></div></div>"
+  },
+  {
+    "id": "avito-lichnye_veschi-sidebar",
+    "platform": "avito-lichnye_veschi",
+    "type": "sidebar",
+    "url": ".avito.ru.*lichnye_veschi",
+    "replacementBlock": "div.avito-ads-container_vr_top",
+    "template": "<div id='avito-lichnye_veschi-sidebar' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='height: 600px; min-height: 200px; min-width: 100px; width: 300px; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-bottom-color: rgb(41, 41, 41); border-bottom-style: none;'></div>"
   }
 ]
