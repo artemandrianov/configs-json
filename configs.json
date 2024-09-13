@@ -635,7 +635,7 @@
     "url": ".*auto.drom.ru",
     "injectionBlock": "div[data-bulletin-list]",
     "injectionPlace":"start",
-    "template": "<div id='auto-drom-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 244px; min-height: 240px; min-width: 720px; width: 724px; transition: opacity 0.4s; opacity: 0; margin: 20px 0px 20px 0px; border-radius: 15px;'></div></div>"
+    "template": "<div id='auto-drom-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 244px; min-height: 240px; min-width: 720px; width: 966px; transition: opacity 0.4s; opacity: 0; margin: 20px 0px 20px 0px; border-radius: 15px;'></div></div>"
   },
   {
       "id": "gismeteo-banner",
