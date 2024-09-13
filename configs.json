@@ -486,9 +486,9 @@
     "id": "megamarket-carousel",
     "platform": "megamarket",
     "type": "carousel",
-    "url": "megamarket.ru",
-    "replacementBlock": ".base-swiper__slide-item.current.big-slider__slide.big-slider__slide_new",
-    "template": "<div id='megamarket-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-right: 24px'><img src='{{imageMainSrc}}' style='max-height: 373px; min-height: 373px; min-width: 700px; width: 1100px; transition: opacity 0.4s ease 0s; opacity: 1; border-radius: 32px;'></div>"
+    "url": ".*megamarket.ru",
+    "replacementBlock": "div.page-index__top-block div:first-child > div.promo-constructor-item__container",
+    "template": "<div id='megamarket-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-right: 24px'><img src='{{imageMainSrc}}' style='max-height: 373px; min-height: 373px; min-width: 700px; width: 1432px; transition: opacity 0.4s ease 0s; opacity: 1; margin-left: 25px; border-radius: 32px;'></div>"
   },
   {
       "id": "cian-card",
