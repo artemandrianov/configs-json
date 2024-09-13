@@ -356,7 +356,7 @@
         "url": ".*dzen.ru/articles",
         "injectionBlock": "div._feed-type_article_showcase",
         "injectionPlace": "start",
-        "template": "<div id='dzen-articles-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 332px; min-height: 330px; min-width: 740px; width: 1240px; margin-top: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></div></div>"
+        "template": "<div id='dzen-articles-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer'><img src='{{imageMainSrc}}' style='max-height: 332px; min-height: 330px; min-width: 740px; width: 1240px; margin: 20px 0px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></div></div>"
     },
     {
         "id": "google-banner",
