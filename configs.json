@@ -30,7 +30,7 @@
         "type": "carousel",
         "url": "lamoda.ru/.*-home/",
         "replacementBlock": "main.width-wrapper > div > div[class*='mainBanner']:first-child",
-        "template": "<div id='lamoda-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 300px; min-width: 960px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
+        "template": "<div id='lamoda-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 200px; min-height: 175px; min-width: 960px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
     },
     {
         "id": "onetwotrip-carousel",
