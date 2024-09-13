@@ -478,8 +478,9 @@
     "platform": "2gis",
     "type": "card",
     "url": "2gis.ru.*",
-    "replacementBlock": "#root > div > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div > div > div > div > div > div > div > div > div > div:last-child > div:last-child",
-    "template": "<div id='2gis-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 286px; min-height: 220px; min-width: 270px; width: 336px; transition: opacity 0.4s ease 0s; opacity: 1;'></div>"
+    "injectionBlock": "#root > div > div > div > div[style] > div[style*='display'] > div[style]",
+    "injectionPlace":"end",
+    "template": "<div id='2gis-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 150px; min-height: 120px; min-width: 270px; width: 336px; transition: opacity 0.4s ease 0s; opacity: 1;'></div>"
   },
   {
     "id": "megamarket-carousel",
