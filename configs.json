@@ -370,13 +370,14 @@
         "template": "<div id='google-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px;min-height: 200px; min-width: 652px; width: 568px; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></img></div>"
     },
     {
-      "id": "vk-news-banner",
-      "platform": "vk-news",
-      "type": "banner",
-      "url": ".*vk.(com|ru)/feed",
-      "replacementBlock": "div._ads_block_data_w",
-      "template": "<div id='vk-news-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 750px;min-height: 550px; min-width: 545px; width: 550px; transition: opacity 0.4s; opacity: 0; border-radius: 13px;'></img></div>"
-  },
+        "id": "vk-news-banner",
+        "platform": "vk-news",
+        "type": "banner",
+        "url": ".*vk.(com|ru)/feed",
+        "replacementBlock": "div._ads_block_data_w",
+        "img_type": "url",
+        "template": "<div id='vk-news-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 750px;min-height: 550px; min-width: 545px; width: 550px; transition: opacity 0.4s; opacity: 0; border-radius: 13px;'></div></div>"
+    },
   {
     "id": "mail-videos-card",
     "platform": "mail-videos",
