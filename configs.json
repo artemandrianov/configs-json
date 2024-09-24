@@ -12,8 +12,9 @@
         "platform": "wildberries",
         "type": "carousel",
         "url": ".wildberries.ru",
+        "img_type": "url",
         "replacementBlock": "div.main-page__banner.banner",
-        "template": "<div id='wildberries-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 370px; min-height: 188px; min-width: 660px; width: 1440px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></img></div>"
+        "template": "<div id='wildberries-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 370px; min-height: 188px; min-width: 660px; width: 1440px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
     },
     {
         "id": "ozon-banner",
