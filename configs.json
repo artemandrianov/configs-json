@@ -152,7 +152,8 @@
         "url": ".*vk(.ru|.com).*",
         "injectionBlock": "#react_rootLeftMenuRoot",
         "injectionPlace": "end",
-        "template": "<div id='vk-sidebarr' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin: 15px 0px -15px; padding: 0 0 13px; border-bottom: 1px solid var(--separator_common);'><img src='{{imageMainSrc}}' style='max-height: 525px;min-height: 320px; min-width: 140px; width: 145px; transition: opacity 0.4s; opacity: 0; margin-right: 8px; border-radius: 8px;'></img></div>"
+        "img_type": "url",
+        "template": "<div id='vk-sidebarr' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin: 15px 0px -15px; padding: 0 0 13px; border-bottom: 1px solid var(--separator_common);'><img src='{{imageMainSrc}}' style='max-height: 525px;min-height: 320px; min-width: 140px; width: 145px; transition: opacity 0.4s; opacity: 0; margin-right: 8px; border-radius: 8px;'></div></div>"
     },
     {
         "id": "mail-ru-banner",
