@@ -17,13 +17,13 @@
         "template": "<div id='wildberries-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 370px; min-height: 188px; min-width: 660px; width: 1440px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
     },
     {
-        "id": "ozon-banner",
+        "id": "ozon-carousel",
         "platform": "ozon",
-        "type": "banner",
+        "type": "carousel",
         "url": "ozon.ru/",
         "replacementBlock": "div[data-widget='advBanner']",
         "img_type": "url",
-        "template": "<div id='ozon-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 12px'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 285px; min-width: 1050px; width: 1416px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
+        "template": "<div id='ozon-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 12px'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 285px; min-width: 1050px; width: 1416px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
     },
     {
         "id": "lamoda-carousel",
