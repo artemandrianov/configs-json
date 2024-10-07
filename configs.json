@@ -394,7 +394,7 @@
       "type": "banner",
       "url": ".*auto.ru.*",
       "replacementBlock": "vertisads-top.VertisAds_place_top",
-      "template": "<div id='auto-ru-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 260px;min-height: 250px; min-width: 1200px; width: 1270px; transition: opacity 0.4s; opacity: 0;'></img></div>"
+      "template": "<div id='auto-ru-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 260px;min-height: 250px; min-width: 1300px; width: 100%; transition: opacity 0.4s; opacity: 0;'></img></div>"
   },
   {
     "id": "aliexpress-carousel",
