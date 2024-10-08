@@ -521,12 +521,12 @@
       "template": "<div id='sportmaster-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 136px; min-height: 100px; min-width: 770.4px; width: 1543px; transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5;'></img></div>"
   },
   {
-      "id": "amedia-card",
-      "platform": "amedia",
-      "type": "card",
-      "url": "amedia.site",
-      "replacementBlock": ".animefilm",
-      "template": "<div id='vseinstrumenti-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-bottom: 50px'><img src='{{imageMainSrc}}' style='max-height: 120px; min-height: 110px; min-width: 900px; width: 1000px; transition: opacity 0.4s; opacity: 0; border-radius: 10px;'></img></div>"
+    "id": "amedia-card",
+    "platform": "amedia",
+    "type": "card",
+    "url": "amedia.site",
+    "replacementBlock": ".animefilm",
+    "template": "<div id='amedia-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-bottom: 50px'><img src='{{imageMainSrc}}' style='max-height: 120px; min-height: 110px; min-width: 900px; width: 1000px; transition: opacity 0.4s; opacity: 0; border-radius: 10px;'></div></div>"
   },
   {
       "id": "rutracker-banner",
