@@ -10,6 +10,7 @@
     {
         "id": "wildberries-carousel",
         "platform": "wildberries",
+        "img_type": "url",
         "type": "carousel",
         "url": ".wildberries.ru",
         "img_type": "url",
@@ -19,6 +20,7 @@
     {
         "id": "ozon-carousel",
         "platform": "ozon",
+        "img_type": "url",
         "type": "carousel",
         "url": "ozon.ru/",
         "replacementBlock": "div[data-widget='advBanner']",
@@ -28,6 +30,7 @@
     {
         "id": "lamoda-carousel",
         "platform": "lamoda",
+        "img_type": "url",
         "type": "carousel",
         "url": "lamoda.ru/.*-home/",
         "replacementBlock": "main.width-wrapper > div > div[class*='mainBanner']:first-child",
@@ -36,6 +39,7 @@
     {
         "id": "onetwotrip-carousel",
         "platform": "onetwotrip",
+        "img_type": "url",
         "type": "carousel",
         "url": "onetwotrip.com/",
         "replacementBlock": "[data-locator='OffersSlider']",
@@ -44,6 +48,7 @@
     {
         "id": "tutu-card",
         "platform": "tutu",
+        "img_type": "url",
         "type": "card",
         "url": "tutu.ru/",
         "replacementBlock": ".styles__block__3t6kr.styles__rightBlock__2YJBk",
@@ -52,6 +57,7 @@
     {
         "id": "tsum-banner",
         "platform": "tsum",
+        "img_type": "url",
         "type": "banner",
         "url": "tsum.ru.*",
         "replacementBlock": "div[data-test-id='singleBannerBlock']",
@@ -60,6 +66,7 @@
     {
         "id": "aviasales-card",
         "platform": "aviasales",
+        "img_type": "url",
         "type": "card",
         "url": "aviasales.ru/",
         "replacementBlock": "[data-test-id='hot-tickets']",
@@ -68,6 +75,7 @@
     {
         "id": "nadpo-sidebar",
         "platform": "nadpo",
+        "img_type": "url",
         "type": "sidebar",
         "url": ".*nadpo.ru",
         "replacementBlock": "div.banner-list",
@@ -76,6 +84,7 @@
     {
         "id": "maeo-card",
         "platform": "maeo",
+        "img_type": "url",
         "type": "card",
         "url": ".*xn--80axh3d.xn--p1ai",
         "replacementBlock": "div.p-baner",
@@ -84,6 +93,7 @@
     {
         "id": "snta-banner",
         "platform": "snta",
+        "img_type": "url",
         "type": "banner",
         "url": ".snta.ru",
         "replacementBlock": "div.main-slider",
@@ -92,6 +102,7 @@
     {
         "id": "avito-rabota-sidebar",
         "platform": "avito-rabota",
+        "img_type": "url",
         "type": "sidebar",
         "url": ".avito.ru.*rabota",
         "replacementBlock": "div.js-promo-sticky-container > div[class*='styles-stickyWrap']",
@@ -100,6 +111,7 @@
     {
         "id": "zarplata-sidebar",
         "platform": "zarplata",
+        "img_type": "url",
         "type": "sidebar",
         "url": ".zarplata.ru",
         "replacementBlock": "div[id*='adfox']",
@@ -108,6 +120,7 @@
     {
         "id": "superjob-banner",
         "platform": "superjob",
+        "img_type": "url",
         "type": "banner",
         "url": ".superjob.ru",
         "replacementBlock": "div[data-advplaceid='desktopHomeL'], div[data-advplaceid='desktopHomeS']",
@@ -116,6 +129,7 @@
     {
         "id": "hh-banner",
         "platform": "hh",
+        "img_type": "url",
         "type": "banner",
         "url": ".hh.ru",
         "replacementBlock": ".bloko-column > div.HHC-Banner-Wrapper:first-child [data-loaded-class=\"banner-place_show\"]",
@@ -133,6 +147,7 @@
     {
         "id": "pikabu-sidebar",
         "platform": "pikabu",
+        "img_type": "url",
         "type": "sidebar",
         "url": ".*pikabu.ru",
         "replacementBlock": "div.sidebar-block_placeholder:nth-child(4)",
@@ -159,6 +174,7 @@
     {
         "id": "mail-ru-banner",
         "platform": "mail-ru",
+        "img_type": "url",
         "type": "banner",
         "url": ".*mail.ru",
         "replacementBlock": "div.micro-widgets + div.tgb-wrapper",
@@ -168,6 +184,7 @@
     {
         "id": "eldorado-roboty-pylesosy",
         "platform": "eldorado-roboty-pylesosy",
+        "img_type": "url",
         "type": "carousel",
         "url": ".eldorado.ru/c/roboty-pylesosy.*",
         "replacementBlock": "div[data-dy='category-slider'] + section",
@@ -176,6 +193,7 @@
     {
         "id": "mvideo-pylesosy-carousel",
         "platform": "mvideo-pylesosy",
+        "img_type": "url",
         "type": "carousel",
         "url": ".mvideo.ru/pylesosy-i-aksessuary.*",
         "replacementBlock": "#categoryBannerCarouselDynamicAreaBlock",
@@ -184,6 +202,7 @@
     {
         "id": "hh-vacancy-sidebar",
         "platform": "hh-vacancy",
+        "img_type": "url",
         "type": "sidebar",
         "url": ".*hh.ru/vacancy/.*",
         "replacementBlock": "div.vacancy-sidebar-column > div:nth-child(1) > div:nth-child(1) > div.banner-place_show",
@@ -192,6 +211,7 @@
     {
         "id": "zarplata-vacancy-banner",
         "platform": "zarplata-vacancy",
+        "img_type": "url",
         "type": "banner",
         "url": ".zarplata.ru/vacancy",
         "replacementBlock": "div[data-test='vacancies-list-container'] [id*='adfox']",
@@ -200,6 +220,7 @@
     {
         "id": "superjob-vacancy-sidebar",
         "platform": "superjob-vacancy",
+        "img_type": "url",
         "type": "sidebar",
         "url": ".superjob.ru/vakansii.*",
         "replacementBlock": "div[id*='adfox']",
@@ -208,6 +229,7 @@
     {
         "id": "zarplata-banner",
         "platform": "zarplata",
+        "img_type": "url",
         "type": "banner",
         "url": ".zarplata.ru1",
         "replacementBlock": "div[class*='advertising-wrapper'] div[id*='adfox']",
@@ -216,6 +238,7 @@
     {
         "id": "gadalkindom-banner",
         "platform": "gadalkindom",
+        "img_type": "url",
         "type": "banner",
         "url": ".*gadalkindom.ru",
         "injectionBlock": "section.maincontent > div.container > div.row > div > div.zagolovok",
@@ -225,6 +248,7 @@
     {
         "id": "astro7-card",
         "platform": "astro7",
+        "img_type": "url",
         "type": "card",
         "url": ".*astro7.ru.*",
         "replacementBlock": "#mycarousel",
@@ -233,6 +257,7 @@
     {
         "id": "horo-mail-sidebar",
         "platform": "horo-mail",
+        "img_type": "url",
         "type": "sidebar",
         "url": ".*horo.mail.ru.*",
         "replacementBlock": "div[data-logger-parent='sidebarRight'] > div:first-child",
@@ -241,6 +266,7 @@
     {
         "id": "horoscopes-rambler-banner",
         "platform": "horoscopes-rambler",
+        "img_type": "url",
         "type": "banner",
         "url": ".*horoscopes.rambler.ru.*",
         "replacementBlock": "div.billboard-wrapper",
@@ -249,6 +275,7 @@
     {
         "id": "magya-online-sidebar",
         "platform": "magya-online",
+        "img_type": "url",
         "type": "sidebar",
         "url": ".*magya-online.ru.*",
         "replacementBlock": "div.opis_div > div.r_mob_300",
@@ -257,6 +284,7 @@
     {
         "id": "irecommend-catalog-sidebar",
         "platform": "irecommend-catalog",
+        "img_type": "url",
         "type": "sidebar",
         "url": ".*irecommend.ru/catalog.*",
         "replacementBlock": "#b_sidebar1",
@@ -265,6 +293,7 @@
     {
         "id": "kosmetista-sidebar",
         "platform": "kosmetista",
+        "img_type": "url",
         "type": "sidebar",
         "url": ".*kosmetista.ru",
         "replacementBlock": "div.sidebar #float_top",
@@ -273,6 +302,7 @@
     {
         "id": "mercury-carousel",
         "platform": "mercury",
+        "img_type": "url",
         "type": "carousel",
         "url": ".mercury.ru",
         "replacementBlock": "div.content--index > div.swiper-container-horizontal",
@@ -281,6 +311,7 @@
     {
         "id": "togas-carousel",
         "platform": "togas",
+        "img_type": "url",
         "type": "carousel",
         "url": ".togas.com.*",
         "replacementBlock": "div.header-slider-container",
@@ -289,6 +320,7 @@
     {
         "id": "bork-carousel",
         "platform": "bork",
+        "img_type": "url",
         "type": "carousel",
         "url": ".bork.ru",
         "replacementBlock": "section.intro-slider",
@@ -297,6 +329,7 @@
     {
         "id": "askona-carousel",
         "platform": "askona",
+        "img_type": "url",
         "type": "carousel",
         "url": ".askona.ru",
         "replacementBlock": "div[class*='MainSlider_main-swiper']",
@@ -305,6 +338,7 @@
     {
         "id": "goldapple-carousel",
         "platform": "goldapple",
+        "img_type": "url",
         "type": "carousel",
         "url": ".*goldapple.ru",
         "replacementBlock": "#__layout > div > main > button + section",
@@ -313,6 +347,7 @@
     {
         "id": "flawery-banner",
         "platform": "flawery",
+        "img_type": "url",
         "type": "banner",
         "url": ".*flawery.ru/moscow.*",
         "injectionBlock": "div.catalog",
@@ -322,6 +357,7 @@
     {
         "id": "flowwow-banner",
         "platform": "flowwow",
+        "img_type": "url",
         "type": "banner",
         "url": ".*flowwow.com1/moscow.*",
         "injectionBlock": "div.tab-content",
@@ -331,6 +367,7 @@
     {
         "id": "megacvet24-carousel",
         "platform": "megacvet24",
+        "img_type": "url",
         "type": "carousel",
         "url": ".*megacvet24.ru",
         "replacementBlock": "div.banner-wrapper",
@@ -339,6 +376,7 @@
     {
         "id": "ok-banner",
         "platform": "ok",
+        "img_type": "url",
         "type": "banner",
         "url": ".*ok.ru/feed.*",
         "injectionBlock": "#hook_Block_MainFeedsContent",
@@ -365,6 +403,7 @@
     {
         "id": "google-banner",
         "platform": "google",
+        "img_type": "url",
         "type": "banner",
         "url": ".google.(com|ru).*",
         "injectionBlock": "#res",
@@ -374,6 +413,7 @@
     {
         "id": "vk-news-banner",
         "platform": "vk-news",
+        "img_type": "url",
         "type": "banner",
         "url": ".*vk.(com|ru)/feed",
         "replacementBlock": "div._ads_block_data_w",
@@ -383,6 +423,7 @@
   {
     "id": "mail-videos-card",
     "platform": "mail-videos",
+    "img_type": "url",
     "type": "card",
     "url": ".*mail.ru",
     "replacementBlock": "div.zenad-card-rtb__ad",
@@ -391,6 +432,7 @@
   {
       "id": "auto-ru-banner",
       "platform": "auto-ru",
+      "img_type": "url",
       "type": "banner",
       "url": ".*auto.ru.*",
       "replacementBlock": "vertisads-top.VertisAds_place_top",
@@ -399,6 +441,7 @@
   {
     "id": "aliexpress-carousel",
     "platform": "aliexpress",
+    "img_type": "url",
     "type": "carousel",
     "url": ".*aliexpress.ru",
     "replacementBlock": "div[class*='snow-container_SnowContainer__container'] > div[class*='RedModuleBanner_RedModuleBanner__container']",
@@ -408,6 +451,7 @@
   {
       "id": "dns-banner",
       "platform": "dns",
+      "img_type": "url",
       "type": "banner",
       "url": ".dns-shop.ru.*",
       "injectionBlock": "#base-header",
@@ -417,6 +461,7 @@
   {
       "id": "mvideo-carousel",
       "platform": "mvideo",
+      "img_type": "url",
       "type": "carousel",
       "url": ".mvideo.ru",
       "replacementBlock": "mvid-promotions-block.promo",
@@ -425,6 +470,7 @@
   {
       "id": "interia-banner",
       "platform": "interia",
+      "img_type": "url",
       "type": "banner",
       "url": ".interia.pl.*",
       "replacementBlock": "body > div.ad-container.wide-ad > div.inner-ad",
@@ -433,6 +479,7 @@
   {
       "id": "onet-banner",
       "platform": "onet",
+      "img_type": "url",
       "type": "banner",
       "url": ".onet.pl",
       "replacementBlock": "div.PageGroup_wide__visie > div[class*='AdSlotPlaceholder_placeholder']",
@@ -441,6 +488,7 @@
   {
       "id": "sports-card",
       "platform": "sports",
+      "img_type": "url",
       "type": "card",
       "url": ".sports.ru",
       "injectionBlock": "aside.columns-layout__right",
@@ -450,6 +498,7 @@
   {
       "id": "championat-banner",
       "platform": "championat",
+      "img_type": "url",
       "type": "banner",
       "url": ".championat.com",
       "replacementBlock": "#top_desk",
@@ -458,6 +507,7 @@
   {
       "id": "sport24-card",
       "platform": "sport24",
+      "img_type": "url",
       "type": "card",
       "url": ".sport24.ru",
       "replacementBlock": "div[class*='desktop-order'] > div > div:first-child > a",
@@ -466,6 +516,7 @@
   {
       "id": "citilink-card",
       "platform": "citilink",
+      "img_type": "url",
       "type": "card",
       "url": ".citilink.ru",
       "replacementBlock": "div[data-meta-name='BannersLayout'] > div:last-child",
@@ -474,6 +525,7 @@
   {
     "id": "sutochno-banner",
     "platform": "sutochno",
+    "img_type": "url",
     "type": "banner",
     "url": "sutochno.ru",
     "replacementBlock": ".bookin-app",
@@ -482,6 +534,7 @@
   {
     "id": "2gis-card",
     "platform": "2gis",
+    "img_type": "url",
     "type": "card",
     "url": "2gis.ru.*",
     "injectionBlock": "#root > div > div > div > div[style] > div[style*='display'] > div[style]",
@@ -491,6 +544,7 @@
   {
     "id": "megamarket-carousel",
     "platform": "megamarket",
+    "img_type": "url",
     "type": "carousel",
     "url": ".*megamarket.ru",
     "replacementBlock": "div.page-index__top-block div:first-child > div.promo-constructor-item__container",
@@ -499,6 +553,7 @@
   {
       "id": "cian-card",
       "platform": "cian",
+      "img_type": "url",
       "type": "card",
       "url": ".cian.ru",
       "replacementBlock": "section[data-name=\"NewbuildingPromoBlock\"] [data-name=\"ItemsCarousel\"] ul > li:first-child [data-name=\"PromoItem\"]",
@@ -507,6 +562,7 @@
   {
       "id": "exist-card",
       "platform": "exist",
+      "img_type": "url",
       "type": "card",
       "url": ".exist.ru",
       "replacementBlock": "[id*=\"adfox\"]",
@@ -515,6 +571,7 @@
   {
       "id": "sportmaster-banner",
       "platform": "sportmaster",
+      "img_type": "url",
       "type": "banner",
       "url": ".sportmaster.ru",
       "replacementBlock": "[data-selenium=\"main-banner-under\"]",
@@ -523,6 +580,7 @@
   {
     "id": "amedia-card",
     "platform": "amedia",
+    "img_type": "url",
     "type": "card",
     "url": "amedia.site",
     "replacementBlock": ".animefilm",
@@ -531,6 +589,7 @@
   {
       "id": "rutracker-banner",
       "platform": "rutracker",
+      "img_type": "url",
       "type": "banner",
       "url": "rutracker.org/forum/index.php",
       "replacementBlock": "#sidebar1_wrap > .bn-idx:first-child",
@@ -539,6 +598,7 @@
   {
       "id": "drom-card",
       "platform": "drom",
+      "img_type": "url",
       "type": "card",
       "url": "baza.drom.ru",
       "replacementBlock": ".native > tr[data-source=\"actual\"]:nth-child(2)",
@@ -547,6 +607,7 @@
   {
       "id": "mail-banner",
       "platform": "mail",
+      "img_type": "url",
       "type": "banner",
       "url": "news.mail.ru",
       "replacementBlock": "center",
@@ -555,6 +616,7 @@
   {
     "id": "animego-banner",
     "platform": "animego",
+    "img_type": "url",
     "type": "banner",
     "url": "animego.org",
     "replacementBlock": ".mb-3 > div[id*=\"yandex_rtb_R\"]",
@@ -563,6 +625,7 @@
   {
       "id": "dns-carousel",
       "platform": "dns",
+      "img_type": "url",
       "type": "carousel",
       "url": ".dns-shop.ru",
       "replacementBlock": ".stories__content .banner",
@@ -571,6 +634,7 @@
   {
     "id": "lemanapro-carousel",
     "platform": "lemanapro",
+    "img_type": "url",
     "type": "carousel",
     "url": "lemanapro.ru/",
     "replacementBlock": "[data-testid=theme-provider] [data-qa-offer-carousel]:nth-child(2) [class*=main_page] .extendMobilePadding[data-qa-carousel]",
@@ -579,6 +643,7 @@
   {
     "id": "ostrovok-banner",
     "platform": "ostrovok",
+    "img_type": "url",
     "type": "banner",
     "url": "ostrovok.ru/",
     "replacementBlock": ".homepage-emailcollector-wrapper .zenemailcollectorV2",
@@ -587,6 +652,7 @@
   {
     "id": "lenta-banner",
     "platform": "lenta",
+    "img_type": "url",
     "type": "banner",
     "url": "lenta.ru",
     "replacementBlock": "#billboard",
@@ -595,6 +661,7 @@
   {
     "id": "ria-banner",
     "platform": "ria",
+    "img_type": "url",
     "type": "banner",
     "url": "ria.ru",
     "replacementBlock": "[data-banner-position=\"main_desktop_sidebar-1\"] aside",
@@ -603,6 +670,7 @@
   {
     "id": "avito-sidebar",
     "platform": "avito",
+    "img_type": "url",
     "type": "sidebar",
     "url": "avito.ru",
     "img_type": "url",
@@ -612,6 +680,7 @@
   {
     "id": "news.rambler-banner",
     "platform": "news.rambler",
+    "img_type": "url",
     "type": "banner",
     "url": "news.rambler.ru",
     "replacementBlock": "#app > div:nth-child(5) > div > div",
@@ -620,6 +689,7 @@
   {
     "id": "torrents-igruha-card",
     "platform": "torrents-igruha",
+    "img_type": "url",
     "type": "card",
     "url": ".*itorrents-igruha.org",
     "injectionBlock": "div.global-container > div.content-right-column > center:first-child > div.menusidebar",
@@ -629,6 +699,7 @@
   {
     "id": "byruthub-card",
     "platform": "byruthub",
+    "img_type": "url",
     "type": "card",
     "url": ".*byruthub.org",
     "injectionBlock": "aside.right-nav",
@@ -638,6 +709,7 @@
   {
     "id": "auto-drom-banner",
     "platform": "auto-drom",
+    "img_type": "url",
     "type": "banner",
     "url": ".*auto.drom.ru",
     "injectionBlock": "div[data-bulletin-list]",
@@ -647,6 +719,7 @@
   {
       "id": "gismeteo-banner",
       "platform": "gismeteo",
+      "img_type": "url",
       "type": "banner",
       "url": ".gismeteo.ru",
       "replacementBlock": "[data-column=\"C2\"] > .section.section-media:first-child",
@@ -655,6 +728,7 @@
   {
       "id": "drom-banner",
       "platform": "drom",
+      "img_type": "url",
       "type": "banner",
       "url": "www.drom.ru",
       "injectionBlock": "[data-sticky-banner-cont=\"true\"]",
@@ -664,6 +738,7 @@
   {
     "id": "playground-banner",
     "platform": "playground",
+    "img_type": "url",
     "type": "banner",
     "url": ".playground.ru",
     "replacementBlock": "div[id*='yandex_rtb']",
