@@ -10,7 +10,6 @@
     {
         "id": "wildberries-carousel",
         "platform": "wildberries",
-        "img_type": "url",
         "type": "carousel",
         "url": ".wildberries.ru",
         "img_type": "url",
@@ -20,11 +19,10 @@
     {
         "id": "ozon-carousel",
         "platform": "ozon",
-        "img_type": "url",
         "type": "carousel",
         "url": "ozon.ru/",
-        "replacementBlock": "div[data-widget='advBanner']",
         "img_type": "url",
+        "replacementBlock": "div[data-widget='advBanner']",
         "template": "<div id='ozon-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 12px'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 285px; min-width: 1050px; width: 1416px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
     },
     {
@@ -174,11 +172,10 @@
     {
         "id": "mail-ru-banner",
         "platform": "mail-ru",
-        "img_type": "url",
         "type": "banner",
         "url": ".*mail.ru",
-        "replacementBlock": "div.micro-widgets + div.tgb-wrapper",
         "img_type": "url",
+        "replacementBlock": "div.micro-widgets + div.tgb-wrapper",
         "template": "<div id='mail-ru-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 200px;min-height: 150px; min-width: 650px; width: 1200px;margin: 16px 0 2px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></div></div>"
     },
     {
@@ -413,11 +410,10 @@
     {
         "id": "vk-news-banner",
         "platform": "vk-news",
-        "img_type": "url",
         "type": "banner",
         "url": ".*vk.(com|ru)/feed",
-        "replacementBlock": "div._ads_block_data_w",
         "img_type": "url",
+        "replacementBlock": "div._ads_block_data_w",
         "template": "<div id='vk-news-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 750px;min-height: 550px; min-width: 545px; width: 550px; transition: opacity 0.4s; opacity: 0; border-radius: 13px;'></div></div>"
     },
   {
@@ -441,11 +437,10 @@
   {
     "id": "aliexpress-carousel",
     "platform": "aliexpress",
-    "img_type": "url",
     "type": "carousel",
     "url": ".*aliexpress.ru",
-    "replacementBlock": "div[class*='snow-container_SnowContainer__container'] > div[class*='RedModuleBanner_RedModuleBanner__container']",
     "img_type": "url",
+    "replacementBlock": "div[class*='snow-container_SnowContainer__container'] > div[class*='RedModuleBanner_RedModuleBanner__container']",
     "template": "<div id='aliexpress-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 250px; min-width: 1300px; width: 1376px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   },
   {
@@ -670,7 +665,6 @@
   {
     "id": "avito-sidebar",
     "platform": "avito",
-    "img_type": "url",
     "type": "sidebar",
     "url": "avito.ru",
     "img_type": "url",
@@ -751,5 +745,14 @@
     "url": ".*ya(ndex.ru|.ru)",
     "replacementBlock": "div.body__content > div.banner",
     "template": "<div id='yandex-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 105px;min-height: 81.5px; min-width: 660px; width: 845px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>"
+  },
+  {
+    "id": "allegro-carousel",
+    "platform": "allegro",
+    "type": "carousel",
+    "url": ".*allegro.pl",
+    "img_type": "url",
+    "replacementBlock": "div[data-box-name*='Showcase Inner Container']",
+    "template": "<div id='allegro-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 405px;min-height: 400px; min-width: 1024px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>"
   }
 ]
