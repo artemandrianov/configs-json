@@ -591,13 +591,14 @@
       "template": "<div id='rutracker-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-top: 7px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 400px; min-width: 240px; width: 240px; transition: opacity 0.4s; opacity: 0;'></img></div>"
   },
   {
-      "id": "drom-card",
-      "platform": "drom",
-      "img_type": "url",
-      "type": "card",
-      "url": "baza.drom.ru",
-      "replacementBlock": ".native > tr[data-source=\"actual\"]:nth-child(2)",
-      "template": "<div id='drom-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-top: 7px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 400px; min-width: 240px; width: 240px; transition: opacity 0.4s; opacity: 0;'></img></div>"
+    "id": "baza-drom-banner",
+    "platform": "baza-drom",
+    "type": "banner",
+    "url": "baza.drom.ru",
+    "img_type": "url",
+    "injectionBlock": "table.pageableContent > tbody",
+    "injectionPlace":"start",
+    "template": "<div id='baza-drom-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 160px; min-height: 155px; min-width: 1220px; width: 1226px; margin-bottom: 12px; transition: opacity 0.4s; opacity: 0;'></img></div>"
   },
   {
       "id": "mail-banner",
