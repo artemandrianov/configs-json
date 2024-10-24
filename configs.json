@@ -454,13 +454,13 @@
       "template": "<div id='dns-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100%;min-height: 200px; min-width: 1200px; width: 100%; transition: opacity 0.4s; opacity: 0;'></img></div>"
   },
   {
-      "id": "mvideo-carousel",
-      "platform": "mvideo",
-      "img_type": "url",
-      "type": "carousel",
-      "url": ".mvideo.ru",
-      "replacementBlock": "mvid-promotions-block.promo",
-      "template": "<div id='mvideo-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 280px;min-height: 270px; min-width: 710px; width: 960px; margin-right: 40px; border-radius: 10px; transition: opacity 0.4s; opacity: 0;'></img></div>"
+    "id": "mvideo-carousel",
+    "platform": "mvideo",
+    "img_type": "url",
+    "type": "carousel",
+    "url": ".mvideo.ru",
+    "replacementBlock": "mvid-promotions-carousel",
+    "template": "<div id='mvideo-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 285px; min-height: 280px; min-width: 710px; width: 964px; border-radius: 10px; transition: opacity 0.4s; opacity: 0;'></img></div>"
   },
   {
       "id": "interia-banner",
