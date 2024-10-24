@@ -529,12 +529,12 @@
   {
     "id": "2gis-card",
     "platform": "2gis",
-    "img_type": "url",
     "type": "card",
     "url": "2gis.ru.*",
+    "img_type":"url",
     "injectionBlock": "#root > div > div > div > div[style] > div[style*='display'] > div[style]",
     "injectionPlace":"end",
-    "template": "<div id='2gis-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 150px; min-height: 120px; min-width: 270px; width: 336px; transition: opacity 0.4s ease 0s; opacity: 1;'></img></div>"
+    "template": "<div id='2gis-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 160px; min-height: 150px; min-width: 270px; width: 336px; transition: opacity 0.4s ease 0s; opacity: 1;'></div>"
   },
   {
     "id": "megamarket-carousel",
