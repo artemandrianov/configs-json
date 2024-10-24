@@ -546,13 +546,13 @@
     "template": "<div id='megamarket-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-right: 24px'><img src='{{imageMainSrc}}' style='max-height: 373px; min-height: 373px; min-width: 700px; width: 1432px; transition: opacity 0.4s ease 0s; opacity: 1; margin-left: 25px; border-radius: 32px;'></img></div>"
   },
   {
-      "id": "cian-card",
-      "platform": "cian",
-      "img_type": "url",
-      "type": "card",
-      "url": ".cian.ru",
-      "replacementBlock": "section[data-name=\"NewbuildingPromoBlock\"] [data-name=\"ItemsCarousel\"] ul > li:first-child [data-name=\"PromoItem\"]",
-      "template": "<div id='cian-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 176px; min-height: 176px; min-width: 227.5px; max-width: 323.5px; transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5; border-radius: 8px'></img></div>"
+    "id": "cian-card",
+    "platform": "cian",
+    "type": "card",
+    "url": ".cian.ru",
+    "img_type": "url",
+    "replacementBlock": "section[data-testid='NewbuildingPromoBlock'] div[data-name='ItemsCarousel'] > ul > li:first-child",
+    "template": "<div id='cian-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 176px; min-height: 176px; min-width: 227.5px; max-width: 323.5px; transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5; border-radius: 8px'></img></div>"
   },
   {
       "id": "exist-card",
