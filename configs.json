@@ -389,13 +389,13 @@
         "template": "<div id='mail-yandex-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 450px; min-height: 340px; min-width: 270px; width: 280px; transition: opacity 0.4s; opacity: 0;'></img></div>"
     },
     {
-        "id": "dzen-articles-banner",
-        "platform": "dzen-articles",
-        "type": "banner",
-        "url": ".*dzen.ru/articles",
-        "injectionBlock": "div._feed-type_article_showcase",
-        "injectionPlace": "start",
-        "template": "<div id='dzen-articles-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer'><img src='{{imageMainSrc}}' style='max-height: 332px; min-height: 330px; min-width: 740px; width: 1240px; margin: 20px 0px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>"
+      "id": "dzen-articles-card",
+      "platform": "dzen-articles",
+      "type": "card",
+      "url": ".*dzen.ru/articles",
+      "img_type": "url",
+      "replacementBlock": "div:nth-child(6) > article[class*='desktop2--card-rtb']",
+      "template": "<div id='dzen-articles-card' class='turboboost-ord' style='position:relative; width: 100%; height: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 355px; min-height: 313px; min-width: 322.6px; width: 360px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>"
     },
     {
         "id": "google-banner",
