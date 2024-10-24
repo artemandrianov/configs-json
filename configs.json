@@ -160,14 +160,14 @@
         "template": "<div id='yandex-search-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px;min-height: 200px; min-width: 460px; width: 568px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>"
     },
     {
-        "id": "vk-sidebarr",
-        "platform": "vk",
-        "type": "sidebar",
-        "url": ".*vk(.ru|.com).*",
-        "injectionBlock": "#react_rootLeftMenuRoot",
-        "injectionPlace": "end",
-        "img_type": "url",
-        "template": "<div id='vk-sidebarr' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin: 15px 0px -15px; padding: 0 0 13px; border-bottom: 1px solid var(--separator_common);'><img src='{{imageMainSrc}}' style='max-height: 525px;min-height: 320px; min-width: 140px; width: 145px; transition: opacity 0.4s; opacity: 0; margin-right: 8px; border-radius: 8px;'></div></div>"
+      "id": "vk-sidebar",
+      "platform": "vk",
+      "type": "sidebar",
+      "url": ".*vk(.ru|.com).*",
+      "injectionBlock": "#react_rootLeftMenuRoot",
+      "injectionPlace": "end",
+      "img_type": "url",
+      "template": "<div id='vk-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin: 15px 0px -15px; padding: 0 0 13px; border-bottom: 1px solid var(--separator_common);'><img src='{{imageMainSrc}}' style='max-height: 235px;min-height: 230px; min-width: 140px; width: 145px; transition: opacity 0.4s; opacity: 0; margin-right: 8px; border-radius: 8px;'></div></div>"
     },
     {
         "id": "mail-ru-banner",
