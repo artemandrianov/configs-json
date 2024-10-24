@@ -611,12 +611,12 @@
   {
     "id": "animego-banner",
     "platform": "animego",
-    "img_type": "url",
     "type": "banner",
-    "url": "animego.org",
+    "url": ".*animego.(org|)",
+    "img_type": "url",
     "replacementBlock": ".mb-3 > div[id*=\"yandex_rtb_R\"]",
-    "template": "<div id='animego-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 290px; min-height: 300px; min-width: 410px; width: 415px; transition: opacity 0.4s; opacity: 0; border: 1px solid rgba(0, 0, 0, .125);;'></img></div>"
-},
+    "template": "<div id='animego-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 290px; min-height: 300px; min-width: 410px; width: 415px; transition: opacity 0.4s; opacity: 0; border: 1px solid rgba(0, 0, 0, .125);;'></div></div>"
+  },
   {
       "id": "dns-carousel",
       "platform": "dns",
