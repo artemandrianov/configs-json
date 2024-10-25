@@ -774,7 +774,7 @@
     "url": ".olx.pl",
     "img_type": "url",
     "replacementBlock": "#mainContent > div > div:nth-child(2)",
-    "template": "<div id='olx-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 305px;min-height: 300px; min-width: 1000px; width: 1238px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    "template": "<div id='olx-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 300px; min-width: 1000px; width: 1238px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   },
   {
     "id": "mediaexpert-banner",
@@ -939,7 +939,7 @@
     "type": "banner",
     "url": ".otomoto.pl",
     "img_type": "url",
-    "replacementBlock": "div[data-testid='main-content'] + div > div > div.slot-placeholder:first-child",
-    "template": "<div id='otomoto-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 296px; min-height: 296px; min-width: 1000px; width: 1180px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>"
+    "replacementBlock": "div[data-testid='main-content'] + div > div",
+    "template": "<div id='otomoto-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 296px; min-height: 296px; min-width: 1185px; width: 1185px; margin-left: 5px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>"
   }
 ]
