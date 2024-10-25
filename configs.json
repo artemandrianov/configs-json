@@ -919,6 +919,16 @@
     "url": ".zus.pl",
     "img_type": "url",
     "replacementBlock": "#layout-column_column-3",
-    "template": "<div id='zus-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 500px;min-height: 500px; min-width: 295px; width: 300px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    "template": "<div id='zus-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 500px;min-height: 500px; min-width: 300px; width: 300px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+  },
+  {
+    "id": "pracuj-banner",
+    "platform": "pracuj",
+    "type": "banner",
+    "url": ".pracuj.pl",
+    "img_type": "url",
+    "injectionBlock": "div[data-test='section-banner']",
+    "injectionPlace": "end",
+    "template": "<div id='pracuj-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 96px;'><img src='{{imageMainSrc}}' style='max-height: 215px; min-height: 212px; min-width: 1200px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></div></div>"
   }
 ]
