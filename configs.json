@@ -163,7 +163,7 @@
       "id": "vk-sidebar",
       "platform": "vk",
       "type": "sidebar",
-      "url": ".*vk(.ru|.com).*",
+      "url": ".*vk.(com|ru)(?!\/feed)",
       "injectionBlock": "#react_rootLeftMenuRoot",
       "injectionPlace": "end",
       "img_type": "url",
