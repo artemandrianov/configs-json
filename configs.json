@@ -903,7 +903,7 @@
     "img_type": "url",
     "injectionBlock": "div.part-constant",
     "injectionPlace":"start",
-    "template": "<div id='eduvulcan-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 35px;'><img src='{{imageMainSrc}}' style='max-height: 341px;min-height: 341px; min-width: 510px; width: 513px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></div></div>"
+    "template": "<div id='eduvulcan-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 35px;'><img src='{{imageMainSrc}}' style='max-height: 381px;min-height: 381px; min-width: 510px; width: 513px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></div></div>"
   },
   {
     "id": "cda-banner",
