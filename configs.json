@@ -765,7 +765,7 @@
     "url": ".*allegro.pl",
     "img_type": "url",
     "replacementBlock": "div[data-box-name*='Showcase Inner Container']",
-    "template": "<div id='allegro-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px;min-height: 350px; min-width: 1024px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    "template": "<div id='allegro-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px;min-height: 350px; min-width: 1024px; width: 1600px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   },
   {
     "id": "olx-banner",
