@@ -718,7 +718,7 @@
     "url": ".gismeteo.ru",
     "img_type":"url",
     "replacementBlock": "[data-column=\"C2\"] > .section.section-media:first-child",
-    "template": "<div id='gismeteo-sidebar' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 620px; min-height: 600px; min-width: 310px; width: 320px; transition: opacity 0.4s; opacity: 0; border-radius: 6px;'></div></div>"
+    "template": "<div id='gismeteo-sidebar' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 630px; min-height: 630px; min-width: 310px; width: 320px; transition: opacity 0.4s; opacity: 0; border-radius: 6px;'></div></div>"
   },
   {
     "id": "drom-card",
