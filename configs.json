@@ -395,7 +395,7 @@
       "url": ".*dzen.ru/articles",
       "img_type": "url",
       "replacementBlock": "div:nth-child(6) > article[class*='desktop2--card-rtb']",
-      "template": "<div id='dzen-articles-card' class='turboboost-ord' style='position:relative; width: 100%; height: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 355px; min-height: 313px; min-width: 322.6px; width: 360px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>"
+      "template": "<div id='dzen-articles-card' class='turboboost-ord' style='position:relative; width: 100%; height: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 354px; min-height: 354px; min-width: 322.6px; width: 360px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>"
     },
     {
         "id": "google-banner",
