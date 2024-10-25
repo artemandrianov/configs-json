@@ -845,8 +845,8 @@
     "type": "banner",
     "url": ".wp.pl",
     "img_type": "url",
-    "replacementBlock": "#site-header > div.transition-transform",
-    "template": "<div id='wp-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 120px; min-height: 110px; min-width: 970px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    "replacementBlock": "body > div:first-child",
+    "template": "<div id='wp-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 120px; min-height: 110px; min-width: 1900px; width: 1903px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   },
   {
     "id": "x-kom-sidebar",
