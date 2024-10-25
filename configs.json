@@ -892,5 +892,15 @@
     "injectionBlock": "main > div",
     "injectionPlace": "end",
     "template": "<div id='zalando-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 150px; min-height: 145px; min-width: 1180px; width: 1200px; margin-top: 45px; transition: opacity 0.4s; opacity: 0;'></div></div>"
+  },
+  {
+    "id": "eduvulcan-card",
+    "platform": "eduvulcan",
+    "type": "card",
+    "url": ".*eduvulcan.pl",
+    "img_type": "url",
+    "injectionBlock": "div.part-business",
+    "injectionPlace":"start",
+    "template": "<div id='eduvulcan-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 30px;'><img src='{{imageMainSrc}}' style='max-height: 341px;min-height: 329px; min-width: 845px; width: 875px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></div></div>"
   }
 ]
