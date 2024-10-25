@@ -881,6 +881,16 @@
     "img_type": "url",
     "injectionBlock": "#__next > main > section:nth-child(4)",
     "injectionPlace":"start",
-    "template": "<div id='otomoto-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 284px; min-height: 280px; min-width: 1230x; width: 1232px; margin-bottom: 34px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>"
+    "template": "<div id='otodom-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 284px; min-height: 280px; min-width: 1230x; width: 1232px; margin-bottom: 34px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>"
+  },
+  {
+    "id": "zalando-banner",
+    "platform": "zalando",
+    "type": "banner",
+    "url": ".zalando.pl",
+    "img_type": "url",
+    "injectionBlock": "main > div",
+    "injectionPlace": "end",
+    "template": "<div id='zalando-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 150px; min-height: 145px; min-width: 1180px; width: 1200px; margin-top: 45px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   }
 ]
