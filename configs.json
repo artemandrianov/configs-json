@@ -864,7 +864,7 @@
     "url": ".*wykop.pl",
     "img_type": "url",
     "replacementBlock": "section[data-label='ad: top']",
-    "template": "<div id='wykop-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 338px; min-height: 337px; min-width: 938px; width: 1222px; transition: opacity 0.4s; opacity: 0; margin-top: 5.5px; border-radius: 6px'></div></div>"
+    "template": "<div id='wykop-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 338px; min-height: 338px; min-width: 1200px; width: 1258px; transition: opacity 0.4s; opacity: 0; margin-top: 5.5px; border-radius: 6px'></div></div>"
   },
   {
     "id": "amazon-banner",
