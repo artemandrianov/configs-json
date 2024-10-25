@@ -930,5 +930,14 @@
     "injectionBlock": "div[data-test='section-banner']",
     "injectionPlace": "end",
     "template": "<div id='pracuj-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 96px;'><img src='{{imageMainSrc}}' style='max-height: 215px; min-height: 212px; min-width: 1200px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></div></div>"
+  },
+  {
+    "id": "otomoto-banner",
+    "platform": "otomoto",
+    "type": "banner",
+    "url": ".otomoto.pl",
+    "img_type": "url",
+    "replacementBlock": "div[data-testid='main-content'] + div > div > div.slot-placeholder:first-child",
+    "template": "<div id='otomoto-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 296px; min-height: 296px; min-width: 1000px; width: 1180px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>"
   }
 ]
