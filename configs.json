@@ -389,7 +389,7 @@
       "injectionBlock": "div[data-key='view=react-left-column']",
       "injectionPlace": "end",
       "template": "<div id='mail-yandex-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 450px; min-height: 340px; min-width: 270px; width: 280px; margin-top: 15px; transition: opacity 0.4s; opacity: 0;'></img></div>"
-    },
+  },
     {
       "id": "dzen-articles-card",
       "platform": "dzen-articles",
@@ -615,7 +615,7 @@
     "id": "animego-banner",
     "platform": "animego",
     "type": "banner",
-    "url": ".*animego.org(?!\/.*)",
+    "url": ".*animego.org(?!\/\\w+)",
     "img_type": "url",
     "replacementBlock": ".mb-3 > div[id*=\"yandex_rtb_R\"]",
     "template": "<div id='animego-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 290px; min-height: 300px; min-width: 410px; width: 415px; transition: opacity 0.4s; opacity: 0; border: 1px solid rgba(0, 0, 0, .125);;'></div></div>"
