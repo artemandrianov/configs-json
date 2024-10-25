@@ -855,7 +855,7 @@
     "url": ".x-kom.pl",
     "img_type": "url",
     "replacementBlock": "#boxLayoutSection > div:first-child",
-    "template": "<div id='x-kom-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 585px;min-height: 580px; min-width: 278px; width: 404px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></div></div>"
+    "template": "<div id='x-kom-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 586px;min-height: 586px; min-width: 444px; width: 444px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></div></div>"
   },
   {
     "id": "wykop-banner",
