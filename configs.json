@@ -381,12 +381,14 @@
         "template": "<div id='ok-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 270px; min-height: 260px; min-width: 570px; width: 580px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>"
     },
     {
-        "id": "mail-yandex-sidebar",
-        "platform": "mail-yandex",
-        "type": "sidebar",
-        "url": ".*mail.yandex.ru.*",
-        "replacementBlock": "#js-main-rtb",
-        "template": "<div id='mail-yandex-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 450px; min-height: 340px; min-width: 270px; width: 280px; transition: opacity 0.4s; opacity: 0;'></img></div>"
+      "id": "mail-yandex-sidebar",
+      "platform": "mail-yandex",
+      "type": "sidebar",
+      "url": ".*mail.yandex.(ru|com).*",
+      "img_type": "url",
+      "injectionBlock": "div[data-key='view=react-left-column']",
+      "injectionPlace": "end",
+      "template": "<div id='mail-yandex-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 450px; min-height: 340px; min-width: 270px; width: 280px; margin-top: 15px; transition: opacity 0.4s; opacity: 0;'></img></div>"
     },
     {
       "id": "dzen-articles-card",
