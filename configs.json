@@ -777,13 +777,13 @@
     "template": "<div id='olx-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 300px; min-width: 1000px; width: 1238px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   },
   {
-    "id": "mediaexpert-banner",
+    "id": "mediaexpert-carousel",
     "platform": "mediaexpert",
-    "type": "banner",
+    "type": "carousel",
     "url": ".mediaexpert.pl",
     "img_type": "url",
-    "replacementBlock": "div.promobar",
-    "template": "<div id='mediaexpert-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 70px;min-height: 65px; min-width: 1024px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>"
+    "replacementBlock": "#home-carousel",
+    "template": "<div id='mediaexpert-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 358px;min-height: 358px; min-width: 1452px; width: 1452px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   },
   {
     "id": "librus-sidebar",
