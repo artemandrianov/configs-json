@@ -737,7 +737,7 @@
     "platform": "playground",
     "img_type": "url",
     "type": "banner",
-    "url": ".playground.ru",
+    "url": ".playground.ru(?!\/.+)",
     "replacementBlock": "div[id*='yandex_rtb']",
     "template": "<div id='playground-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='height: 300px; min-height: 290px; min-width: 1100px; width: 1200px; transition: opacity 0.4s; opacity: 0;'></img></div>"
   },
