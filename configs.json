@@ -446,16 +446,6 @@
     "template": "<div id='aliexpress-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 250px; min-width: 1300px; width: 1376px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   },
   {
-      "id": "dns-banner",
-      "platform": "dns",
-      "img_type": "url",
-      "type": "banner",
-      "url": ".dns-shop.ru.*",
-      "injectionBlock": "#base-header",
-      "injectionPlace":"start",
-      "template": "<div id='dns-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100%;min-height: 200px; min-width: 1200px; width: 100%; transition: opacity 0.4s; opacity: 0;'></img></div>"
-  },
-  {
     "id": "mvideo-carousel",
     "platform": "mvideo",
     "img_type": "url",
