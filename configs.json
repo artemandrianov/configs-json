@@ -20,7 +20,7 @@
         "id": "ozon-carousel",
         "platform": "ozon",
         "type": "carousel",
-        "url": "ozon.ru/",
+        "url": "ozon.ru",
         "img_type": "b64",
         "replacementBlock": "div[data-widget='advBanner']",
         "template": "<div id='ozon-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 12px'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 285px; min-width: 1050px; width: 1416px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
