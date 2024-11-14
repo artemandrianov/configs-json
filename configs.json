@@ -612,13 +612,14 @@
     "template": "<div id='animego-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 290px; min-height: 300px; min-width: 410px; width: 415px; transition: opacity 0.4s; opacity: 0; border: 1px solid rgba(0, 0, 0, .125);;'></div></div>"
   },
   {
-      "id": "dns-carousel",
-      "platform": "dns",
-      "img_type": "url",
-      "type": "carousel",
-      "url": ".dns-shop.ru",
-      "replacementBlock": ".stories__content .banner",
-      "template": "<div id='dns-carousel' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 221px; min-height: 221px; min-width: 352px; width: 372px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></img></div>"
+    "id": "dns-banner",
+    "platform": "dns",
+    "type": "banner",
+    "url": ".dns-shop.ru",
+    "img_type": "url",
+    "injectionBlock": "div.homepage__middle-block",
+    "injectionPlace": "start",
+    "template": "<div id='dns-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 95px; min-width: 1300px; width: 1380px; margin: -30px 0px 25px 0px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></img></div>"
   },
   {
     "id": "lemanapro-carousel",
