@@ -933,5 +933,15 @@
     "img_type": "url",
     "replacementBlock": "div[data-testid='main-content'] + div > div",
     "template": "<div id='otomoto-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 296px; min-height: 296px; min-width: 1185px; width: 1185px; margin-left: 5px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>"
+  },
+  {
+    "id": "ozon-product-banner",
+    "platform": "ozon-product",
+    "type": "banner",
+    "url": "ozon.ru/product",
+    "img_type": "url",
+    "injectionBlock": "div.container > div > div[data-widget='webStickyColumn'] > div > div > div:first-child",
+    "injectionPlace": "end",
+    "template": "<div id='ozon-product-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 95px; min-width: 380px; width: 388px; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
   }
 ]
