@@ -942,6 +942,16 @@
     "img_type": "url",
     "injectionBlock": "div.container > div > div[data-widget='webStickyColumn'] > div > div > div:first-child",
     "injectionPlace": "end",
-    "template": "<div id='ozon-product-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 95px; min-width: 380px; width: 388px; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
+    "template": "<div id='ozon-product-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 95px; min-width: 380px; width: 388px; margin-top: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
+  },
+  {
+    "id": "wildberries-product-banner",
+    "platform": "wildberries-product",
+    "type": "banner",
+    "url": ".wildberries.ru/catalog.*",
+    "img_type": "url",
+    "injectionBlock": "div.product-page__aside > div.product-page__aside-sticky > div.product-page__aside-container",
+    "injectionPlace": "end",
+    "template": "<div id='wildberries-product-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 95px; min-width: 335px; width: 340px; margin-top: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 12px'></div></div>"
   }
 ]
