@@ -953,5 +953,14 @@
     "injectionBlock": "div.product-page__aside > div.product-page__aside-sticky > div.product-page__aside-container",
     "injectionPlace": "end",
     "template": "<div id='wildberries-product-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 95px; min-width: 335px; width: 340px; margin-top: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 12px'></div></div>"
+  },
+  {
+    "id": "ozon-carousel",
+    "platform": "ozon-carousel",
+    "type": "carousel",
+    "url": ".ozon.ru",
+    "img_type": "img",
+    "replacementBlock": "#layoutPage div[data-widget='advBanner']",
+    "template": "<div id='ozon-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 12px'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 295px; min-width: 1400px; width: 1416px; margin-top: 3px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
   }
 ]
