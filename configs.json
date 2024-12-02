@@ -810,7 +810,7 @@
     "type": "card",
     "url": ".vinted.pl",
     "img_type": "url",
-    "replacementBlock": "div.single-banner-container-narrow:first-child",
+    "replacementBlock": "div.narrow-banners-layout-container > div:first-child",
     "template": "<div id='vinted-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 312px;min-height: 200px; min-width: 425px; width: 612px; transition: opacity 0.4s; opacity: 0; border-radius: 5px;'></div></div>"
   },
   {
