@@ -910,7 +910,7 @@
     "id": "zus-sidebar",
     "platform": "zus",
     "type": "sidebar",
-    "url": ".zus.pl",
+    "url": ".zus.pl(?!\/.+)",
     "img_type": "url",
     "replacementBlock": "#column-3 > div",
     "template": "<div id='zus-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 500px;min-height: 500px; min-width: 300px; width: 300px; margin-left: 20px; transition: opacity 0.4s; opacity: 0;'></div></div>"
