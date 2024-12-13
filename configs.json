@@ -1,11 +1,11 @@
 [
     {
-        "id": "yandexmarket-carousel",
-        "platform": "yandexmarket",
-        "type": "carousel",
-        "url": "market.yandex.ru/$",
-        "replacementBlock": "div[data-apiary-widget-name*=HeroBannerCarouselCreator]",
-        "template": "<div id='yandexmarket-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 150px; min-width: 655px; width: 1440px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>"
+    "id": "yandexmarket-carousel",
+    "platform": "yandexmarket",
+    "type": "carousel",
+    "url": "market.yandex.ru/$",
+    "replacementBlock": "div[data-zone-name='heroBannerCarousel'] > div > div:first-child",
+    "template": "<div id='yandexmarket-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 150px; min-width: 655px; width: 1440px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>"
     },
     {
         "id": "wildberries-carousel",
