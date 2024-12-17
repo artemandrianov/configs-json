@@ -881,7 +881,7 @@
     "id": "zalando-banner",
     "platform": "zalando",
     "type": "banner",
-    "url": ".zalando.pl",
+    "url": ".zalando.pl(?!\/.+)",
     "img_type": "url",
     "injectionBlock": "main > div",
     "injectionPlace": "end",
