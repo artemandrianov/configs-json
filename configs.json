@@ -372,14 +372,14 @@
         "template": "<div id='megacvet24-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 620px; min-height: 600px; min-width: 820px; width: 850px; transition: opacity 0.4s; opacity: 0;'></img></div>"
     },
     {
-        "id": "ok-banner",
-        "platform": "ok",
-        "img_type": "url",
-        "type": "banner",
-        "url": ".*ok.ru/feed.*",
-        "injectionBlock": "#hook_Block_MainFeedsContent",
-        "injectionPlace": "start",
-        "template": "<div id='ok-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 270px; min-height: 260px; min-width: 570px; width: 580px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>"
+      "id": "ok-banner",
+      "platform": "ok",
+      "img_type": "url",
+      "type": "banner",
+      "url": ".*ok.ru/feed.*",
+      "injectionBlock": "#hook_Block_MainFeedsContent",
+      "injectionPlace": "start",
+      "template": "<div id='ok-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 270px; min-height: 260px; min-width: 570px; width: 580px; transition: opacity 0.4s; opacity: 0; margin-bottom: 10px; border-radius: 16px;'></img></div>"
     },
     {
       "id": "mail-yandex-sidebar",
