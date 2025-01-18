@@ -156,7 +156,7 @@
         "id": "yandex-search-banner",
         "platform": "yandex-search",
         "type": "banner",
-        "url": ".*ya(ndex.ru|.ru)/search/.*",
+        "url": ".*ya(ndex.ru|.ru)/search.*",
         "injectionBlock": "div.serp-list_right_yes",
         "template": "<div id='yandex-search-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px;min-height: 200px; min-width: 460px; width: 568px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>"
     },
