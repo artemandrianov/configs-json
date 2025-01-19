@@ -414,7 +414,7 @@
         "id": "vk-news-banner",
         "platform": "vk-news",
         "type": "banner",
-        "url": ".*vk.(com|ru)/feed",
+        "url": ".*vk.(com|ru)/(feed|al_feed.php)",
         "img_type": "url",
         "replacementBlock": "div._ads_block_data_w",
         "template": "<div id='vk-news-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 750px;min-height: 550px; min-width: 545px; width: 550px; transition: opacity 0.4s; opacity: 0; border-radius: 13px;'></div></div>"
