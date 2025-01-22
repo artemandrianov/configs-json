@@ -962,5 +962,24 @@
     "img_type": "img",
     "replacementBlock": "#layoutPage div[data-widget='advBanner']",
     "template": "<div id='ozon-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 12px'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 295px; min-width: 1400px; width: 1416px; margin-top: 3px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>"
+  },
+  {
+    "id": "youtube-banner",
+    "platform": "youtube",
+    "type": "banner",
+    "url": ".youtube.com",
+    "img_type": "url",
+    "replacementBlock": "#masthead-ad.ytd-browse",
+    "template": "<div id='youtube-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 150px; min-height: 100px; min-width: 150px; width: 1620px; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 10px;'></div></div>"
+  },
+  {
+    "id": "twitch-banner",
+    "platform": "twitch",
+    "type": "banner",
+    "url": ".twitch.tv",
+    "img_type": "url",
+    "injectionBlock": "#twilight-sticky-header-root + div > div.simplebar-scroll-content",
+    "injectionPlace": "start",
+    "template": "<div id='twitch-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 150px; min-height: 100px; min-width: 150px; width: 1620px; transition: opacity 0.4s; opacity: 0;'></div></div>"
   }
 ]
