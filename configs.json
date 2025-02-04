@@ -672,7 +672,7 @@
         "id": "animego-banner",
         "platform": "animego",
         "type": "banner",
-        "url": ".*animego.org(?!/\\w+)",
+        "url": ".*animego.(org|me)(?!/\\w+)",
         "img_type": "url",
         "replacementBlock": "div.content-block > div.mb-3:nth-child(2)",
         "template": "<div id='animego-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 290px; min-height: 300px; min-width: 410px; width: 415px; transition: opacity 0.4s; opacity: 0; border: 1px solid rgba(0, 0, 0, .125);;'></div></div>",
