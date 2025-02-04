@@ -642,7 +642,7 @@
         "platform": "rutracker",
         "img_type": "url",
         "type": "banner",
-        "url": "rutracker.org/forum/index.php",
+        "url": "rutracker.*/forum/index.php",
         "replacementBlock": "#sidebar1_wrap > .bn-idx:first-child",
         "template": "<div id='rutracker-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-top: 7px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 400px; min-width: 240px; width: 240px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='rutracker-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
