@@ -1088,5 +1088,179 @@
         "injectionPlace": "start",
         "template": "<div id='twitch-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 150px; min-height: 100px; min-width: 150px; width: 1620px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='twitch-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
-    }
+    },
+    {
+        "id": "vkusvill-banner",
+        "platform": "vkusvill",
+        "type": "banner",
+        "url": ".*vkusvill.ru",
+        "img_type": "url",
+        "replacementBlock": "#js-header-top-btn",
+        "template": "<div id='vkusvill-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 80px; min-height: 80px; min-width: 1900px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='vkusvill-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "flowwow-banner",
+        "platform": "flowwow",
+        "type": "banner",
+        "url": ".*flowwow.com",
+        "img_type": "url",
+        "replacementBlock": "a.promo-banner-wrapper",
+        "template": "<div id='flowwow-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 50px; min-height: 50px; min-width: 1900px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='flowwow-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "napopravku-banner",
+        "platform": "napopravku",
+        "type": "banner",
+        "url": ".*napopravku.ru",
+        "img_type": "url",
+        "replacementBlock": "section.main-search",
+        "template": "<div id='napopravku-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 280px; min-height: 280px; min-width: 1900px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='napopravku-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "smclinic-banner",
+        "platform": "smclinic",
+        "type": "banner",
+        "url": ".*smclinic.ru",
+        "img_type": "url",
+        "replacementBlock": "span.important-information-desk a.top-b",
+        "template": "<div id='smclinic-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 160px; min-height: 160px; min-width: 1200px; width: 1400px; border-radius: 16px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='smclinic-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "4lapy-banner",
+        "platform": "4lapy",
+        "type": "banner",
+        "url": ".*4lapy.ru",
+        "img_type": "url",
+        "injectionBlock": "main[class*='Layout_mainPage']",
+        "injectionPlace": "start",
+        "template": "<div id='4lapy-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 160px; min-height: 160px; min-width: 1200px; width: 1300px; margin-top: 106px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='4lapy-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "medsi-banner",
+        "platform": "medsi",
+        "type": "banner",
+        "url": ".*medsi.ru",
+        "img_type": "url",
+        "replacementBlock": "div[class='med-info-item']",
+        "template": "<div id='medsi-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 364px; min-height: 364px; min-width: 1200px; width: 1300px; border-radius: 8px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='medsi-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "petshop-banner",
+        "platform": "petshop",
+        "type": "banner",
+        "url": ".*petshop.ru",
+        "img_type": "url",
+        "replacementBlock": "div.wrapper-for-main-slider > div.slick-initialized",
+        "template": "<div id='petshop-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 359px; min-height: 359px; min-width: 756px; width: 756px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='petshop-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "mts-banner",
+        "platform": "mts",
+        "type": "banner",
+        "url": ".*mts.ru",
+        "img_type": "url",
+        "replacementBlock": "div.mts16-footer__to-bottom-content > mts-widget-zone:nth-child(3)",
+        "template": "<div id='mts-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 100px; min-width: 1535px; width: 1535px; border-radius: 16px; margin-top: 30px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='mts-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "t2-banner",
+        "platform": "t2",
+        "type": "banner",
+        "url": ".*t2.ru",
+        "img_type": "url",
+        "injectionBlock": "div.main-content",
+        "injectionPlace":"start",
+        "template": "<div id='t2-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 100px; min-width: 1136px; width: 1136px; border-radius: 32px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='t2-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "megafon-banner",
+        "platform": "megafon",
+        "type": "banner",
+        "url": ".*megafon.ru",
+        "img_type": "url",
+        "replacementBlock": "div.main-page-esim-banner",
+        "template": "<div id='megafon-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 256px; min-height: 256px; min-width: 1400px; width: 1440px; border-radius: 24px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='megafon-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "technopark-banner",
+        "platform": "technopark",
+        "type": "banner",
+        "url": ".*technopark.ru",
+        "img_type": "url",
+        "replacementBlock": "div.index-reels-banner",
+        "template": "<div id='technopark-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 259px; min-height: 259px; min-width: 1433px; width: 1433px; border-radius: 16px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='technopark-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "google-main-banner",
+        "platform": "google-main",
+        "type": "banner",
+        "url": ".google.com.*",
+        "img_type": "url",
+        "injectionBlock": "body > div > div > form > div:nth-child(1) > div:first-child",
+        "injectionPlace": "end",
+        "template": "<div id='google-main-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 105px;min-height: 81.5px; min-width: 660px; width: 845px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></img></div>",
+        "template_2": "<div id='google-main-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "imba-banner",
+        "platform": "imba",
+        "type": "banner",
+        "url": ".*imba.shop",
+        "img_type": "url",
+        "replacementBlock": "#banner0",
+        "template": "<div id='imba-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 585px; min-height: 584px; min-width: 1903px; width: 1903px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='imba-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "decathlon-banner",
+        "platform": "decathlon",
+        "type": "banner",
+        "url": ".*decathlonsport.ru",
+        "img_type": "url",
+        "replacementBlock": "#slideshow0 > div.owl-wrapper-outer",
+        "template": "<div id='decathlon-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 641px; min-height: 641px; min-width: 1140px; width: 1140px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='decathlon-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "eldorado-banner",
+        "platform": "eldorado",
+        "type": "banner",
+        "url": ".eldorado.ru",
+        "img_type": "url",
+        "replacementBlock": "main > div > div > div > div.Da.Ga > section.Ea > div.Zr > div",
+        "template": "<div id='eldorado-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 300px; min-width: 660px; width: 660px; transition: opacity 0.4s; opacity: 0; border-radius: 6px;'></img></div>",
+        "template_2": "<div id='eldorado-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "desport-banner",
+        "platform": "desport",
+        "type": "banner",
+        "url": ".*desport.ru",
+        "img_type": "url",
+        "replacementBlock": "div[class*='MainBanner_MainBanner']",
+        "template": "<div id='desport-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 590px; min-height: 590px; min-width: 1304px; width: 1304px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
+        "template_2": "<div id='desport-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      },
+      {
+        "id": "turoktv-banner",
+        "platform": "turoktv",
+        "type": "banner",
+        "url": ".*turoktv.com/.*",
+        "img_type": "url",
+        "injectionBlock": ".playlists-iframe",
+        "injectionPlace": "start",
+        "template": "<div id='turoktv-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 590px; min-height: 590px; min-width: 1304px; width: 1304px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
+        "template_2": "<div id='turoktv-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+      }
 ]
