@@ -166,7 +166,7 @@
         "type": "sidebar",
         "url": ".*pikabu.ru",
         "replacementBlock": "div.sidebar-block_placeholder:nth-child(4)",
-        "template": "<div id='pikabu-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 550px; min-height: 500px; min-width: 250px; width: 300px; margin-top: 16px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='pikabu-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 550px; min-height: 100px; min-width: 250px; width: 300px; margin-top: 16px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='pikabu-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -533,7 +533,7 @@
         "url": ".sports.ru",
         "injectionBlock": "aside.columns-layout__right",
         "injectionPlace": "start",
-        "template": "<div id='sports-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 550px; min-height: 500px; min-width: 295px; width: 300px; transition: opacity 0.4s; opacity: 0; margin-bottom: 10px;'></img></div>",
+        "template": "<div id='sports-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 550px; min-height: 100px; min-width: 295px; width: 300px; transition: opacity 0.4s; opacity: 0; margin-bottom: 10px;'></img></div>",
         "template_2": "<div id='sports-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -726,7 +726,7 @@
         "type": "banner",
         "url": "ria.ru",
         "replacementBlock": "[data-banner-position=\"main_desktop_sidebar-1\"] aside",
-        "template": "<div id='ria-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 580px; min-height: 600px; min-width: 290px; width: 300px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='ria-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 580px; min-height: 100px; min-width: 290px; width: 300px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='ria-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -736,7 +736,7 @@
         "url": "avito.ru",
         "img_type": "url",
         "replacementBlock": "div.avito-ads-container_vr_top",
-        "template": "<div id='avito-sidebar' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='height: 600px; min-height: 200px; min-width: 100px; width: 300px; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-bottom-color: rgb(41, 41, 41); border-bottom-style: none;'></div>",
+        "template": "<div id='avito-sidebar' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='height: 600px; min-height: 100px; min-width: 100px; width: 300px; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-bottom-color: rgb(41, 41, 41); border-bottom-style: none;'></div>",
         "template_2": "<div id='avito-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
