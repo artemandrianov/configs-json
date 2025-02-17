@@ -5,7 +5,7 @@
         "type": "carousel",
         "url": "market.yandex.ru/$",
         "replacementBlock": "div[data-zone-name='heroBannerCarousel'] > div > div:first-child",
-        "template": "<div id='yandexmarket-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 150px; min-width: 655px; width: 1440px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>",
+        "template": "<div id='yandexmarket-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>",
         "template_2": "<div id='yandexmarket-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -15,7 +15,7 @@
         "url": ".wildberries.ru",
         "img_type": "url",
         "replacementBlock": "div.main-page__banner.banner",
-        "template": "<div id='wildberries-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 370px; min-height: 188px; min-width: 660px; width: 1440px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>",
+        "template": "<div id='wildberries-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>",
         "template_2": "<div id='wildberries-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -26,7 +26,7 @@
         "img_type": "b64",
         "injectionBlock": "div[data-widget='wallpaper']:nth-child(2) div[data-widget='container']",
         "injectionPlace": "start",
-        "template": "<div id='ozon-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-bottom: 10px; border-radius: 16px;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 95px; min-width: 1050px; width: 1416px; transition: opacity 0.4s; opacity: 0; border-radius: 24px'></div></div>",
+        "template": "<div id='ozon-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; margin-bottom: 10px; border-radius: 16px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 24px'></div></div>",
         "template_2": "<div id='ozon-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -36,7 +36,7 @@
         "type": "carousel",
         "url": "lamoda.ru/.*-home/",
         "replacementBlock": "main.width-wrapper > div > div[class*='mainBanner']:first-child",
-        "template": "<div id='lamoda-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 200px; min-height: 175px; min-width: 960px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></img></div>",
+        "template": "<div id='lamoda-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 36px'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 16px'></img></div>",
         "template_2": "<div id='lamoda-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -46,7 +46,7 @@
         "type": "carousel",
         "url": "onetwotrip.com/",
         "replacementBlock": "[data-locator='OffersSlider']",
-        "template": "<div id='onetwotrip-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 20px 0 36px'><img src='{{imageMainSrc}}' style='max-height: 500px; min-height: 450px; min-width: 1050px; width: 1415px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></img></div>",
+        "template": "<div id='onetwotrip-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 20px 0 36px'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 16px'></img></div>",
         "template_2": "<div id='onetwotrip-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -56,7 +56,7 @@
         "type": "card",
         "url": "tutu.ru/",
         "replacementBlock": ".styles__block__3t6kr.styles__rightBlock__2YJBk",
-        "template": "<div id='tutu-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 350px; min-height: 350px; min-width: 450px; width: 450px; transition: opacity 0.4s; opacity: 0; border-radius: 12px'></img></div>",
+        "template": "<div id='tutu-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 12px'></img></div>",
         "template_2": "<div id='tutu-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -66,7 +66,7 @@
         "type": "banner",
         "url": "tsum.ru.*",
         "replacementBlock": "div[data-test-id='singleBannerBlock']",
-        "template": "<div id='tsum-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 590px; min-height: 570px; min-width: 1000px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 12px'></img></div>",
+        "template": "<div id='tsum-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 12px'></img></div>",
         "template_2": "<div id='tsum-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -76,7 +76,7 @@
         "type": "card",
         "url": "aviasales.ru/",
         "replacementBlock": "[data-test-id='hot-tickets']",
-        "template": "<div id='aviasales-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 388px; min-height: 378px; min-width: 400px; width: 400px; transition: opacity 0.4s; opacity: 0; border-radius: 12px'></img></div>",
+        "template": "<div id='aviasales-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 12px'></img></div>",
         "template_2": "<div id='aviasales-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -86,7 +86,7 @@
         "type": "sidebar",
         "url": ".*nadpo.ru",
         "replacementBlock": "div.banner-list",
-        "template": "<div id='nadpo-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 800px;min-height: 500px; min-width: 250px; width: 1200px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='nadpo-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='nadpo-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -96,7 +96,7 @@
         "type": "card",
         "url": ".*xn--80axh3d.xn--p1ai",
         "replacementBlock": "div.p-baner",
-        "template": "<div id='maeo-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 8px; margin-top: 12px;'><img src='{{imageMainSrc}}' style='max-height: 140px;min-height: 130px; min-width: 200px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></img></div>",
+        "template": "<div id='maeo-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 8px; margin-top: 12px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></img></div>",
         "template_2": "<div id='maeo-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -106,7 +106,7 @@
         "type": "banner",
         "url": ".snta.ru",
         "replacementBlock": "div.main-slider",
-        "template": "<div id='snta-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; padding: 0 15px;'><img src='{{imageMainSrc}}' style='max-height: 370px;min-height: 370px; min-width: 200px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>",
+        "template": "<div id='snta-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; padding: 0 15px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>",
         "template_2": "<div id='snta-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -116,7 +116,7 @@
         "type": "sidebar",
         "url": ".avito.ru.*rabota",
         "replacementBlock": "div.js-promo-sticky-container > div[class*='styles-stickyWrap']",
-        "template": "<div id='avito-rabota-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 800px; min-height: 600px; min-width: 300px; width: 350px; margin-top: 20px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='avito-rabota-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='margin-top: 20px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='avito-rabota-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -126,7 +126,7 @@
         "type": "sidebar",
         "url": ".zarplata.ru",
         "replacementBlock": "div[id*='adfox']",
-        "template": "<div id='zarplata-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 350px; min-width: 240px; width: 250px; margin-left: 40px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='zarplata-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='margin-left: 40px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='zarplata-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -136,7 +136,7 @@
         "type": "banner",
         "url": ".superjob.ru",
         "replacementBlock": "div[data-advplaceid='desktopHomeL'], div[data-advplaceid='desktopHomeS']",
-        "template": "<div id='superjob-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 8px; margin-top: 12px;'><img src='{{imageMainSrc}}' style='max-height: 150px;min-height: 100px; min-width: 200px; width: 1136px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></img></div>",
+        "template": "<div id='superjob-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 8px; margin-top: 12px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></img></div>",
         "template_2": "<div id='superjob-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -146,7 +146,7 @@
         "type": "banner",
         "url": ".hh.ru",
         "replacementBlock": ".bloko-column > div.HHC-Banner-Wrapper:first-child [data-loaded-class=\"banner-place_show\"]",
-        "template": "<div id='hh-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px; min-height: 250px; min-width: 290px; width: 300px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='hh-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='hh-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -156,7 +156,7 @@
         "url": "(.*dzen.ru)",
         "img_type": "url",
         "replacementBlock": "article[class*='dzen-desktop--card-rtb']:nth-child(4)",
-        "template": "<div id='dzen-card' class='turboboost-ord' style='position:relative; width: 100%; height: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 354px; min-height: 354px; min-width: 322.6px; width: 360px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
+        "template": "<div id='dzen-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
         "template_2": "<div id='dzen-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -166,7 +166,7 @@
         "type": "sidebar",
         "url": ".*pikabu.ru",
         "replacementBlock": "div.sidebar-block_placeholder:nth-child(4)",
-        "template": "<div id='pikabu-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 550px; min-height: 100px; min-width: 250px; width: 300px; margin-top: 16px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='pikabu-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='margin-top: 16px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='pikabu-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -175,7 +175,7 @@
         "type": "banner",
         "url": ".*ya(ndex.ru|.ru)/search.*",
         "injectionBlock": "div.serp-list_right_yes",
-        "template": "<div id='yandex-search-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px;min-height: 200px; min-width: 460px; width: 568px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>",
+        "template": "<div id='yandex-search-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>",
         "template_2": "<div id='yandex-search-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -186,7 +186,7 @@
         "injectionBlock": "#react_rootLeftMenuRoot",
         "injectionPlace": "end",
         "img_type": "url",
-        "template": "<div id='vk-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin: 15px 0px -15px; padding: 0 0 13px; border-bottom: 1px solid var(--separator_common);'><img src='{{imageMainSrc}}' style='max-height: 235px;min-height: 230px; min-width: 140px; width: 145px; transition: opacity 0.4s; opacity: 0; margin-right: 8px; border-radius: 8px;'></div></div>",
+        "template": "<div id='vk-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; margin: 15px 0px -15px; padding: 0 0 13px; border-bottom: 1px solid var(--separator_common);'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-right: 8px; border-radius: 8px;'></div></div>",
         "template_2": "<div id='vk-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -196,7 +196,7 @@
         "url": ".*mail.ru",
         "img_type": "url",
         "replacementBlock": "div.tgb-wrapper__container",
-        "template": "<div id='mail-ru-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 90px; min-height: 90px; min-width: 650px; width: 1144px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></div></div>",
+        "template": "<div id='mail-ru-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></div></div>",
         "template_2": "<div id='mail-ru-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -206,7 +206,7 @@
         "type": "carousel",
         "url": ".eldorado.ru/c/roboty-pylesosy.*",
         "replacementBlock": "div[data-dy='category-slider'] + section",
-        "template": "<div id='eldorado-roboty-pylesosy' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-bottom: 36px;'><img src='{{imageMainSrc}}' style='max-height: 110px; min-height: 105px; min-width: 999px; width: 1200px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='eldorado-roboty-pylesosy' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; margin-bottom: 36px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='eldorado-roboty-pylesosy' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -216,7 +216,7 @@
         "type": "carousel",
         "url": ".mvideo.ru/pylesosy-i-aksessuary.*",
         "replacementBlock": "#categoryBannerCarouselDynamicAreaBlock",
-        "template": "<div id='mvideo-pylesosy-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 336px; min-height: 330px; min-width: 900px; width: 913px; transition: opacity 0.4s; opacity: 0; border-radius: 14px;'></img></div>",
+        "template": "<div id='mvideo-pylesosy-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 14px;'></img></div>",
         "template_2": "<div id='mvideo-pylesosy-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -226,7 +226,7 @@
         "type": "sidebar",
         "url": ".*hh.ru/vacancy/.*",
         "replacementBlock": "div.vacancy-sidebar-column > div:nth-child(1) > div:nth-child(1) > div.banner-place_show",
-        "template": "<div id='hh-vacancy-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 800px; min-height: 600px; min-width: 300px; width: 300px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='hh-vacancy-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='hh-vacancy-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -236,7 +236,7 @@
         "type": "banner",
         "url": ".zarplata.ru/vacancy",
         "replacementBlock": "div[data-test='vacancies-list-container'] [id*='adfox']",
-        "template": "<div id='zarplata-vacancy-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 120px;min-height: 110px; min-width: 900px; width: 915px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='zarplata-vacancy-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='zarplata-vacancy-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -246,7 +246,7 @@
         "type": "sidebar",
         "url": ".superjob.ru/vakansii.*",
         "replacementBlock": "div[id*='adfox']",
-        "template": "<div id='superjob-vacancy-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='height: 470px; min-height: 450px; min-width: 235px; width: 240px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='superjob-vacancy-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='superjob-vacancy-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -256,7 +256,7 @@
         "type": "banner",
         "url": ".zarplata.ru1",
         "replacementBlock": "div[class*='advertising-wrapper'] div[id*='adfox']",
-        "template": "<div id='zarplata-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 125.6px; min-height: 125px; min-width: 1200px; width: 1219px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='zarplata-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='zarplata-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -267,7 +267,7 @@
         "url": ".*gadalkindom.ru",
         "injectionBlock": "section.maincontent > div.container > div.row > div > div.zagolovok",
         "injectionPlace": "end",
-        "template": "<div id='gadalkindom-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 10px;'><img src='{{imageMainSrc}}' style='max-height: 210px; min-height: 165px; min-width: 795px; width: 800px; transition: opacity 0.4s; opacity: 0; margin-right: 46px'></img></div>",
+        "template": "<div id='gadalkindom-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; margin-top: 10px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-right: 46px'></img></div>",
         "template_2": "<div id='gadalkindom-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -277,7 +277,7 @@
         "type": "card",
         "url": ".*astro7.ru.*",
         "replacementBlock": "#mycarousel",
-        "template": "<div id='astro7-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-bottom: 69px;'><img src='{{imageMainSrc}}' style='max-height: 389px; min-height: 380px; min-width: 740px; width: 750px; transition: opacity 0.4s; opacity: 0; border-radius: 2px;'></img></div>",
+        "template": "<div id='astro7-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; margin-bottom: 69px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 2px;'></img></div>",
         "template_2": "<div id='astro7-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -287,7 +287,7 @@
         "type": "sidebar",
         "url": ".*horo.mail.ru.*",
         "replacementBlock": "div[data-logger-parent='sidebarRight'] > div:first-child",
-        "template": "<div id='horo-mail-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; background: #fff; padding: 19px 0px; margin-bottom: 20px; border-radius: 2px'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 390px; min-width: 275px; width: 280px; transition: opacity 0.4s; opacity: 0; border-radius: 2px;'></img></div>",
+        "template": "<div id='horo-mail-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; background: #fff; padding: 19px 0px; margin-bottom: 20px; border-radius: 2px'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 2px;'></img></div>",
         "template_2": "<div id='horo-mail-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -297,7 +297,7 @@
         "type": "banner",
         "url": ".*horoscopes.rambler.ru.*",
         "replacementBlock": "div.billboard-wrapper",
-        "template": "<div id='horoscopes-rambler-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 350px; min-height: 250px; min-width: 1200px; width: 1600px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='horoscopes-rambler-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='horoscopes-rambler-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -307,7 +307,7 @@
         "type": "sidebar",
         "url": ".*magya-online.ru.*",
         "replacementBlock": "div.opis_div > div.r_mob_300",
-        "template": "<div id='magya-online-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding: 0px 0px 10px 0px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 390px; min-width: 240px; width: 340px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='magya-online-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; padding: 0px 0px 10px 0px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='magya-online-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -317,7 +317,7 @@
         "type": "sidebar",
         "url": ".*irecommend.ru/catalog.*",
         "replacementBlock": "#b_sidebar1",
-        "template": "<div id='irecommend-catalog-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 610px; min-height: 600px; min-width: 295px; width: 300px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='irecommend-catalog-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='irecommend-catalog-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -327,7 +327,7 @@
         "type": "sidebar",
         "url": ".*kosmetista.ru",
         "replacementBlock": "div.sidebar #float_top",
-        "template": "<div id='kosmetista-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 250px; min-width: 330px; width: 336px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='kosmetista-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='kosmetista-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -337,7 +337,7 @@
         "type": "carousel",
         "url": ".mercury.ru",
         "replacementBlock": "div.content--index > div.swiper-container-horizontal",
-        "template": "<div id='mercury-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding: 5px;'><img src='{{imageMainSrc}}' style='max-height: 700px; min-height: 545px; min-width: 1370px; width: 1600px; transition: opacity 0.4s; opacity: 0; margin-right: 10px; border-radius: 5px;'></img></div>",
+        "template": "<div id='mercury-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; padding: 5px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-right: 10px; border-radius: 5px;'></img></div>",
         "template_2": "<div id='mercury-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -347,7 +347,7 @@
         "type": "carousel",
         "url": ".togas.com.*",
         "replacementBlock": "div.header-slider-container",
-        "template": "<div id='togas-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 715px; min-height: 712px; min-width: 1370px; width: 1519px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='togas-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='togas-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -357,7 +357,7 @@
         "type": "carousel",
         "url": ".bork.ru",
         "replacementBlock": "section.intro-slider",
-        "template": "<div id='bork-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 710px; min-height: 700px; min-width: 1510px; width: 1515px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='bork-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='bork-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -367,7 +367,7 @@
         "type": "carousel",
         "url": ".askona.ru",
         "replacementBlock": "div[class*='MainSlider_main-swiper']",
-        "template": "<div id='askona-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 395px; min-width: 1370px; width: 1519px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='askona-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='askona-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -377,7 +377,7 @@
         "type": "carousel",
         "url": ".*goldapple.ru",
         "replacementBlock": "#__layout > div > main > button + section",
-        "template": "<div id='goldapple-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 700px; min-height: 522px; min-width: 1440px; width: 1920px; margin-bottom: 10px; transition: opacity 0.4s; opacity: 0; object-fit: cover;'></img></div>",
+        "template": "<div id='goldapple-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-bottom: 10px; transition: opacity 0.4s; opacity: 0; object-fit: cover;'></img></div>",
         "template_2": "<div id='goldapple-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -388,7 +388,7 @@
         "url": ".*flawery.ru/moscow.*",
         "injectionBlock": "div.catalog",
         "injectionPlace": "start",
-        "template": "<div id='flawery-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 430px; min-height: 420px; min-width: 1000px; width: 1170px; transition: opacity 0.4s; opacity: 0;margin-top: 20px; border-radius: 16px;'></img></div>",
+        "template": "<div id='flawery-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;margin-top: 20px; border-radius: 16px;'></img></div>",
         "template_2": "<div id='flawery-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -399,7 +399,7 @@
         "url": ".*flowwow.com1/moscow.*",
         "injectionBlock": "div.tab-content",
         "injectionPlace": "start",
-        "template": "<div id='flowwow-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 330px; min-height: 320px; min-width: 450px; width: 665px; transition: opacity 0.4s; opacity: 0; margin: 0px 3px 20px 0px; border-radius: 16px;'></img></div>",
+        "template": "<div id='flowwow-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin: 0px 3px 20px 0px; border-radius: 16px;'></img></div>",
         "template_2": "<div id='flowwow-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -409,7 +409,7 @@
         "type": "carousel",
         "url": ".*megacvet24.ru",
         "replacementBlock": "div.banner-wrapper",
-        "template": "<div id='megacvet24-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 620px; min-height: 600px; min-width: 820px; width: 850px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='megacvet24-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='megacvet24-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -420,7 +420,7 @@
         "url": ".*ok.ru/feed.*",
         "injectionBlock": "#hook_Block_MainFeedsContent",
         "injectionPlace": "start",
-        "template": "<div id='ok-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 270px; min-height: 260px; min-width: 570px; width: 580px; transition: opacity 0.4s; opacity: 0; margin-bottom: 10px; border-radius: 16px;'></img></div>",
+        "template": "<div id='ok-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-bottom: 10px; border-radius: 16px;'></img></div>",
         "template_2": "<div id='ok-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -431,7 +431,7 @@
         "img_type": "url",
         "injectionBlock": "div[data-key='view=react-left-column']",
         "injectionPlace": "end",
-        "template": "<div id='mail-yandex-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 450px; min-height: 340px; min-width: 270px; width: 280px; margin-top: 15px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='mail-yandex-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-top: 15px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='mail-yandex-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -441,7 +441,7 @@
         "url": ".*dzen.ru/articles",
         "img_type": "url",
         "replacementBlock": "div:nth-child(6) > article[class*='desktop2--card-rtb']",
-        "template": "<div id='dzen-articles-card' class='turboboost-ord' style='position:relative; width: 100%; height: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 354px; min-height: 354px; min-width: 322.6px; width: 360px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
+        "template": "<div id='dzen-articles-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
         "template_2": "<div id='dzen-articles-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -452,7 +452,7 @@
         "url": ".google.(com|ru).*",
         "injectionBlock": "#center_col + div",
         "injectionPlace": "end",
-        "template": "<div id='google-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px;min-height: 200px; min-width: 372px; width: 372px; margin-top: 10px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></img></div>",
+        "template": "<div id='google-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-top: 10px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></img></div>",
         "template_2": "<div id='google-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -462,7 +462,7 @@
         "url": ".*vk.(com|ru)/(feed|al_feed.php)",
         "img_type": "url",
         "replacementBlock": "div._ads_block_data_w",
-        "template": "<div id='vk-news-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 750px;min-height: 550px; min-width: 545px; width: 550px; transition: opacity 0.4s; opacity: 0; border-radius: 13px;'></div></div>",
+        "template": "<div id='vk-news-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 13px;'></div></div>",
         "template_2": "<div id='vk-news-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -472,7 +472,7 @@
         "type": "card",
         "url": ".*mail.1ru",
         "replacementBlock": "article[data-testid='card-rtb']",
-        "template": "<div id='mail-videos-card' class='turboboost-ord' style='position:relative; width: 100%; height: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='max-height: 360px; min-height: 337px; max-width: 370px; min-width: 330px; transition: opacity 0.4s; opacity: 0; border-radius: 17px;'></img></div>",
+        "template": "<div id='mail-videos-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 12px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 17px;'></img></div>",
         "template_2": "<div id='mail-videos-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -482,7 +482,7 @@
         "type": "banner",
         "url": ".*auto.ru.*",
         "replacementBlock": "vertisads-top.VertisAds_place_top",
-        "template": "<div id='auto-ru-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 260px;min-height: 250px; min-width: 1300px; width: 100%; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='auto-ru-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='auto-ru-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -492,7 +492,7 @@
         "url": ".*aliexpress.ru",
         "img_type": "url",
         "replacementBlock": "div[class*='snow-container_SnowContainer__container'] > div[class*='RedModuleBanner_RedModuleBanner__container']",
-        "template": "<div id='aliexpress-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 250px; min-width: 1300px; width: 1376px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='aliexpress-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='aliexpress-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -502,7 +502,7 @@
         "type": "carousel",
         "url": ".mvideo.ru",
         "replacementBlock": "mvid-promotions-carousel",
-        "template": "<div id='mvideo-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 285px; min-height: 280px; min-width: 710px; width: 1045px; border-radius: 10px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='mvideo-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='border-radius: 10px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='mvideo-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -512,7 +512,7 @@
         "type": "banner",
         "url": ".interia.pl.*",
         "replacementBlock": "body > div.ad-container.wide-ad > div.inner-ad",
-        "template": "<div id='interia-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 200px; min-width: 1200px; width: 1422px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='interia-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='interia-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -522,7 +522,7 @@
         "type": "banner",
         "url": ".onet.pl",
         "replacementBlock": "div.PageGroup_wide__visie > div[class*='AdSlotPlaceholder_placeholder']",
-        "template": "<div id='onet-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 200px; min-width: 1200px; width: 1260px; margin-bottom: 10px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='onet-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-bottom: 10px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='onet-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -543,7 +543,7 @@
         "type": "banner",
         "url": ".championat.com",
         "replacementBlock": "#top_desk",
-        "template": "<div id='championat-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px; min-height: 240px; min-width: 1070px; width: 1080px; margin-bottom: 10px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='championat-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-bottom: 10px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='championat-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -553,7 +553,7 @@
         "type": "card",
         "url": ".sport24.ru",
         "replacementBlock": "div[class*='desktop-order'] > div > div:first-child > a",
-        "template": "<div id='sport24-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 360px; min-height: 350px; min-width: 230px; width: 240px; transition: opacity 0.4s; opacity: 0; border-radius: 4px'></img></div>",
+        "template": "<div id='sport24-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 4px'></img></div>",
         "template_2": "<div id='sport24-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -563,7 +563,7 @@
         "type": "card",
         "url": ".citilink.ru",
         "replacementBlock": "div[data-meta-name='BannersLayout'] > div:last-child",
-        "template": "<div id='citilink-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 350; min-height: 340px; min-width: 270px; width: 272px; transition: opacity 0.4s; opacity: 0'></img></div>",
+        "template": "<div id='citilink-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0'></img></div>",
         "template_2": "<div id='citilink-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -573,7 +573,7 @@
         "type": "banner",
         "url": "sutochno.ru",
         "replacementBlock": ".bookin-app",
-        "template": "<div id='sutochno-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 40px'><img src='{{imageMainSrc}}' style='max-height: 179px; min-height: 104px; min-width: 270px; width: 1160px; transition: opacity 0.4s ease 0s; opacity: 1; border-radius: 20px;'></img></div>",
+        "template": "<div id='sutochno-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; margin-top: 40px'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s ease 0s; opacity: 1; border-radius: 20px;'></img></div>",
         "template_2": "<div id='sutochno-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -584,7 +584,7 @@
         "img_type": "url",
         "injectionBlock": "#root > div > div > div > div[style] > div[style*='display'] > div[style]",
         "injectionPlace": "end",
-        "template": "<div id='2gis-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 160px; min-height: 150px; min-width: 270px; width: 336px; transition: opacity 0.4s ease 0s; opacity: 1;'></div>",
+        "template": "<div id='2gis-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s ease 0s; opacity: 1;'></div>",
         "template_2": "<div id='2gis-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -594,7 +594,7 @@
         "type": "carousel",
         "url": ".*megamarket.ru",
         "replacementBlock": "div.page-index__top-block div:first-child > div.promo-constructor-item__container",
-        "template": "<div id='megamarket-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-right: 24px'><img src='{{imageMainSrc}}' style='max-height: 373px; min-height: 373px; min-width: 700px; width: 1432px; transition: opacity 0.4s ease 0s; opacity: 1; margin-left: 25px; border-radius: 32px;'></img></div>",
+        "template": "<div id='megamarket-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; padding-right: 24px'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s ease 0s; opacity: 1; margin-left: 25px; border-radius: 32px;'></img></div>",
         "template_2": "<div id='megamarket-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -604,7 +604,7 @@
         "url": ".cian.ru",
         "img_type": "url",
         "replacementBlock": "section[data-testid='NewbuildingPromoBlock'] div[data-name='ItemsCarousel'] > ul > li:first-child",
-        "template": "<div id='cian-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 176px; min-height: 176px; min-width: 227.5px; max-width: 323.5px; transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5; border-radius: 8px'></img></div>",
+        "template": "<div id='cian-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5; border-radius: 8px'></img></div>",
         "template_2": "<div id='cian-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -614,7 +614,7 @@
         "type": "card",
         "url": ".exist.ru",
         "replacementBlock": "[id*=\"adfox\"]",
-        "template": "<div id='exist-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 400px; min-width: 240px; width: 240px; transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5;'></img></div>",
+        "template": "<div id='exist-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5;'></img></div>",
         "template_2": "<div id='exist-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -624,7 +624,7 @@
         "type": "banner",
         "url": ".sportmaster.ru",
         "replacementBlock": "[data-selenium=\"main-banner-under\"]",
-        "template": "<div id='sportmaster-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 136px; min-height: 100px; min-width: 770.4px; width: 1543px; transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5;'></img></div>",
+        "template": "<div id='sportmaster-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border: 1px solid #c9d1e5;'></img></div>",
         "template_2": "<div id='sportmaster-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -634,7 +634,7 @@
         "type": "card",
         "url": ".*amedia.lol",
         "replacementBlock": ".animefilm",
-        "template": "<div id='amedia-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-bottom: 50px'><img src='{{imageMainSrc}}' style='max-height: 120px; min-height: 110px; min-width: 900px; width: 1000px; transition: opacity 0.4s; opacity: 0; border-radius: 10px;'></div></div>",
+        "template": "<div id='amedia-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; margin-bottom: 50px'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 10px;'></div></div>",
         "template_2": "<div id='amedia-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -644,7 +644,7 @@
         "type": "banner",
         "url": "rutracker.*/forum/index.php",
         "replacementBlock": "#sidebar1_wrap > .bn-idx:first-child",
-        "template": "<div id='rutracker-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; padding-top: 7px;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 400px; min-width: 240px; width: 240px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='rutracker-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; padding-top: 7px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='rutracker-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -655,7 +655,7 @@
         "img_type": "url",
         "injectionBlock": "table.pageableContent",
         "injectionPlace": "start",
-        "template": "<div id='baza-drom-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 160px; min-height: 155px; min-width: 1220px; width: 1226px; margin-bottom: 12px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='baza-drom-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-bottom: 12px; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='baza-drom-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -665,7 +665,7 @@
         "type": "banner",
         "url": "news.mail.ru",
         "replacementBlock": "center > div",
-        "template": "<div id='news-mail-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 90px; min-height: 85px; min-width: 950px; width: 1260px; transition: opacity 0.4s; opacity: 0;box-shadow: 0px 4px 12px 0px rgba(18, 25, 43, 0.12); border-radius: 12px;'></img></div>",
+        "template": "<div id='news-mail-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;box-shadow: 0px 4px 12px 0px rgba(18, 25, 43, 0.12); border-radius: 12px;'></img></div>",
         "template_2": "<div id='news-mail-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -675,7 +675,7 @@
         "url": ".*animego.(org|me)(?!/\\w+)",
         "img_type": "url",
         "replacementBlock": "div.content-block > div.mb-3:nth-child(2)",
-        "template": "<div id='animego-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 290px; min-height: 300px; min-width: 410px; width: 415px; transition: opacity 0.4s; opacity: 0; border: 1px solid rgba(0, 0, 0, .125);;'></div></div>",
+        "template": "<div id='animego-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border: 1px solid rgba(0, 0, 0, .125);;'></div></div>",
         "template_2": "<div id='animego-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -686,7 +686,7 @@
         "img_type": "url",
         "injectionBlock": "div.homepage__middle-block",
         "injectionPlace": "start",
-        "template": "<div id='dns-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 95px; min-width: 1300px; width: 1380px; margin: -30px 0px 25px 0px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></img></div>",
+        "template": "<div id='dns-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin: -30px 0px 25px 0px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></img></div>",
         "template_2": "<div id='dns-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -696,7 +696,7 @@
         "type": "carousel",
         "url": "lemanapro.ru/",
         "replacementBlock": "div[data-qa-offer-carousel]:nth-child(2) > div > div",
-        "template": "<div id='lemanapro-carousel' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='height: 268px; min-height: 150px; min-width: 700px; width: 1180px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></img></div>",
+        "template": "<div id='lemanapro-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></img></div>",
         "template_2": "<div id='lemanapro-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -706,7 +706,7 @@
         "type": "banner",
         "url": "ostrovok.ru/",
         "replacementBlock": ".homepage-emailcollector-wrapper .zenemailcollectorV2",
-        "template": "<div id='ostrovok-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='height: 252px; min-height: 150px; min-width: 700px; width: 1000px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></img></div>",
+        "template": "<div id='ostrovok-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></img></div>",
         "template_2": "<div id='ostrovok-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -716,7 +716,7 @@
         "type": "banner",
         "url": "lenta.ru",
         "replacementBlock": "#billboard",
-        "template": "<div id='lenta-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='height: 250px; min-height: 150px; min-width: 700px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-bottom-color: rgb(41, 41, 41); border-bottom-style: none;'></img></div>",
+        "template": "<div id='lenta-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='; transition: opacity 0.4s; opacity: 0; border-bottom-color: rgb(41, 41, 41); border-bottom-style: none;'></img></div>",
         "template_2": "<div id='lenta-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -726,7 +726,7 @@
         "type": "banner",
         "url": "ria.ru",
         "replacementBlock": "[data-banner-position=\"main_desktop_sidebar-1\"] aside",
-        "template": "<div id='ria-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 580px; min-height: 100px; min-width: 290px; width: 300px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='ria-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='ria-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -736,7 +736,7 @@
         "url": "avito.ru",
         "img_type": "url",
         "replacementBlock": "div.avito-ads-container_vr_top",
-        "template": "<div id='avito-sidebar' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='height: 600px; min-height: 100px; min-width: 100px; width: 300px; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-bottom-color: rgb(41, 41, 41); border-bottom-style: none;'></div>",
+        "template": "<div id='avito-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-bottom-color: rgb(41, 41, 41); border-bottom-style: none;'></div>",
         "template_2": "<div id='avito-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -746,7 +746,7 @@
         "type": "banner",
         "url": "news.rambler.ru",
         "replacementBlock": "#app > div:nth-child(5) > div > div",
-        "template": "<div id='rambler-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px; min-height: 250px; min-width: 970px; width: 1260px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='rambler-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='rambler-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -757,7 +757,7 @@
         "url": ".*itorrents-igruha.org",
         "injectionBlock": "div.global-container > div.content-right-column > center:first-child > div.menusidebar",
         "injectionPlace": "end",
-        "template": "<div id='torrents-igruha-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 270px; min-width: 190px; width: 200px; transition: opacity 0.4s; opacity: 0; margin-top: 16px; border-radius: 3px;'></img></div>",
+        "template": "<div id='torrents-igruha-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-top: 16px; border-radius: 3px;'></img></div>",
         "template_2": "<div id='torrents-igruha-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -768,7 +768,7 @@
         "url": ".*byrut.*.org",
         "injectionBlock": "aside.right-nav",
         "injectionPlace": "start",
-        "template": "<div id='byruthub-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px; min-height: 395px; min-width: 290px; width: 296px; transition: opacity 0.4s; opacity: 0; margin-bottom: 15px; border-radius: 8px;'></img></div>",
+        "template": "<div id='byruthub-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-bottom: 15px; border-radius: 8px;'></img></div>",
         "template_2": "<div id='byrut-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -779,7 +779,7 @@
         "url": ".*auto.drom.ru",
         "injectionBlock": "div[data-bulletin-list]",
         "injectionPlace": "start",
-        "template": "<div id='auto-drom-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 244px; min-height: 240px; min-width: 720px; width: 966px; transition: opacity 0.4s; opacity: 0; margin: 20px 0px 20px 0px; border-radius: 15px;'></img></div>",
+        "template": "<div id='auto-drom-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin: 20px 0px 20px 0px; border-radius: 15px;'></img></div>",
         "template_2": "<div id='auto-drom-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -789,7 +789,7 @@
         "url": ".gismeteo.ru",
         "img_type": "url",
         "replacementBlock": "[data-column=\"C2\"] > .section.section-media:first-child",
-        "template": "<div id='gismeteo-sidebar' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 630px; min-height: 630px; min-width: 310px; width: 320px; transition: opacity 0.4s; opacity: 0; border-radius: 6px;'></div></div>",
+        "template": "<div id='gismeteo-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 6px;'></div></div>",
         "template_2": "<div id='gismeteo-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -800,7 +800,7 @@
         "img_type": "url",
         "injectionBlock": "[data-sticky-banner-cont=\"true\"]",
         "injectionPlace": "start",
-        "template": "<div id='gismeteo-card' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; margin-bottom: 40px;'><img src='{{imageMainSrc}}' style='max-height: 340px; min-height: 340px; min-width: 200px; width: 240px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>",
+        "template": "<div id='gismeteo-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; margin-bottom: 40px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>",
         "template_2": "<div id='gismeteo-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -810,7 +810,7 @@
         "type": "banner",
         "url": ".playground.ru(?!/.+)",
         "replacementBlock": "div[id*='yandex_rtb']",
-        "template": "<div id='playground-banner' class='turboboost-ord' style='position:relative; width: auto; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='height: 300px; min-height: 290px; min-width: 1100px; width: 1200px; transition: opacity 0.4s; opacity: 0;'></img></div>",
+        "template": "<div id='playground-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; '><img src='{{imageMainSrc}}' style='; transition: opacity 0.4s; opacity: 0;'></img></div>",
         "template_2": "<div id='playground-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -819,7 +819,7 @@
         "type": "banner",
         "url": ".*ya(ndex.ru|.ru)",
         "replacementBlock": "div.body__content > div.banner",
-        "template": "<div id='yandex-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 105px;min-height: 81.5px; min-width: 660px; width: 845px; transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>",
+        "template": "<div id='yandex-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 16px;'></img></div>",
         "template_2": "<div id='yandex-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -829,7 +829,7 @@
         "url": ".kinopoisk.ru",
         "img_type": "url",
         "replacementBlock": "div[class*='styles_middleContainer'] > div:first-child",
-        "template": "<div id='kinopoisk-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 250px; min-height: 245px; min-width: 1030px; width: 1280px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='kinopoisk-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='kinopoisk-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -839,7 +839,7 @@
         "url": ".*allegro.pl",
         "img_type": "url",
         "replacementBlock": "div[data-box-name*='Showcase Inner Container']",
-        "template": "<div id='allegro-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 400px;min-height: 350px; min-width: 1024px; width: 1600px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='allegro-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='allegro-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -849,7 +849,7 @@
         "url": ".olx.pl",
         "img_type": "url",
         "replacementBlock": "#mainContent > div > div:nth-child(2)",
-        "template": "<div id='olx-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px;min-height: 300px; min-width: 1000px; width: 1238px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='olx-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='olx-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -859,7 +859,7 @@
         "url": ".mediaexpert.pl",
         "img_type": "url",
         "replacementBlock": "#home-carousel",
-        "template": "<div id='mediaexpert-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 358px;min-height: 270px; min-width: 700px; width: 1452px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='mediaexpert-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='mediaexpert-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -869,7 +869,7 @@
         "url": ".*portal.librus.pl",
         "img_type": "url",
         "replacementBlock": "aside.common__widget > section",
-        "template": "<div id='librus-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 600px;min-height: 590px; min-width: 290px; width: 300px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='librus-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='librus-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -879,7 +879,7 @@
         "url": ".euro.com.pl",
         "img_type": "url",
         "replacementBlock": "div.small-banners__item:first-child",
-        "template": "<div id='euro-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 375px;min-height: 372px; min-width: 318px; width: 320px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='euro-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='euro-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -889,7 +889,7 @@
         "url": ".flashscore.pl",
         "img_type": "url",
         "replacementBlock": "#box-over-content-revive",
-        "template": "<div id='flashscore-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 91px; min-height: 90px; min-width: 450px; width: 688px; margin-bottom: 10px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='flashscore-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-bottom: 10px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='flashscore-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -899,7 +899,7 @@
         "url": ".vinted.pl",
         "img_type": "url",
         "replacementBlock": "div.narrow-banners-layout-container > div:first-child",
-        "template": "<div id='vinted-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 312px;min-height: 200px; min-width: 425px; width: 612px; transition: opacity 0.4s; opacity: 0; border-radius: 5px;'></div></div>",
+        "template": "<div id='vinted-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 5px;'></div></div>",
         "template_2": "<div id='vinted-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -909,7 +909,7 @@
         "url": ".ceneo.pl",
         "img_type": "url",
         "replacementBlock": "div.home-main__showcase-mini:nth-child(2)",
-        "template": "<div id='ceneo-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 186px;min-height: 166px; min-width: 333px; width: 373px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='ceneo-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='ceneo-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -919,7 +919,7 @@
         "url": ".*erli.pl",
         "img_type": "url",
         "replacementBlock": "#root > main > section > div:last-child > div > div:nth-child(2) > a",
-        "template": "<div id='erli-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 352px;min-height: 352px; min-width: 212px; width: 312px; margin-left: 32px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></div></div>",
+        "template": "<div id='erli-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-left: 32px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></div></div>",
         "template_2": "<div id='erli-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -929,7 +929,7 @@
         "url": ".wp.pl",
         "img_type": "url",
         "replacementBlock": "#site-header > div.transition-transform, body > div:first-child:not(.advertisement)",
-        "template": "<div id='wp-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 120px; min-height: 110px; min-width: 1900px; width: 1903px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='wp-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='wp-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -939,7 +939,7 @@
         "url": ".x-kom.pl",
         "img_type": "url",
         "replacementBlock": "#boxLayoutSection > div:first-child",
-        "template": "<div id='x-kom-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 586px;min-height: 586px; min-width: 444px; width: 444px; transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></div></div>",
+        "template": "<div id='x-kom-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 12px;'></div></div>",
         "template_2": "<div id='x-kom-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -949,7 +949,7 @@
         "url": ".*wykop.pl",
         "img_type": "url",
         "replacementBlock": "section[data-label='ad: top']",
-        "template": "<div id='wykop-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 338px; min-height: 338px; min-width: 1200px; width: 1258px; transition: opacity 0.4s; opacity: 0; margin-top: 5.5px; border-radius: 6px'></div></div>",
+        "template": "<div id='wykop-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-top: 5.5px; border-radius: 6px'></div></div>",
         "template_2": "<div id='wykop-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -959,7 +959,7 @@
         "url": ".amazon.pl",
         "img_type": "url",
         "replacementBlock": "#desktop-banner",
-        "template": "<div id='amazon-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 230px; min-height: 220px; min-width: 1000px; width: 1460px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='amazon-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='amazon-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -970,7 +970,7 @@
         "img_type": "url",
         "injectionBlock": "#__next > main > section:nth-child(4)",
         "injectionPlace": "start",
-        "template": "<div id='otodom-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 284px; min-height: 280px; min-width: 1230x; width: 1232px; margin-bottom: 34px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>",
+        "template": "<div id='otodom-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-bottom: 34px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>",
         "template_2": "<div id='otodom-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -981,7 +981,7 @@
         "img_type": "url",
         "injectionBlock": "main > div",
         "injectionPlace": "end",
-        "template": "<div id='zalando-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 150px; min-height: 145px; min-width: 1180px; width: 1200px; margin-top: 45px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='zalando-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-top: 45px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='zalando-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -992,7 +992,7 @@
         "img_type": "url",
         "injectionBlock": "div.part-constant",
         "injectionPlace": "start",
-        "template": "<div id='eduvulcan-card' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 35px;'><img src='{{imageMainSrc}}' style='max-height: 381px;min-height: 381px; min-width: 510px; width: 513px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></div></div>",
+        "template": "<div id='eduvulcan-card' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; margin-top: 35px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></div></div>",
         "template_2": "<div id='eduvulcan-card' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -1002,7 +1002,7 @@
         "url": ".cda.pl",
         "img_type": "url",
         "replacementBlock": "div.nb-box:nth-child(5)",
-        "template": "<div id='cda-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 490px; min-height: 490px; min-width: 1218px; width: 1218px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='cda-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='cda-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -1012,7 +1012,7 @@
         "url": ".zus.pl(?!/.+)",
         "img_type": "url",
         "replacementBlock": "#column-3 > div",
-        "template": "<div id='zus-sidebar' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 500px;min-height: 500px; min-width: 300px; width: 300px; margin-left: 20px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='zus-sidebar' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-left: 20px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='zus-sidebar' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -1023,7 +1023,7 @@
         "img_type": "url",
         "injectionBlock": "div[data-test='section-banner']",
         "injectionPlace": "end",
-        "template": "<div id='pracuj-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; margin-top: 96px;'><img src='{{imageMainSrc}}' style='max-height: 215px; min-height: 212px; min-width: 1200px; width: 1200px; transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></div></div>",
+        "template": "<div id='pracuj-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; margin-top: 96px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 8px;'></div></div>",
         "template_2": "<div id='pracuj-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -1033,7 +1033,7 @@
         "url": ".otomoto.pl",
         "img_type": "url",
         "replacementBlock": "div[data-testid='main-content'] + div > div",
-        "template": "<div id='otomoto-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 296px; min-height: 296px; min-width: 1185px; width: 1185px; margin-left: 5px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>",
+        "template": "<div id='otomoto-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-left: 5px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></div></div>",
         "template_2": "<div id='otomoto-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -1044,7 +1044,7 @@
         "img_type": "url",
         "injectionBlock": "div.container > div > div[data-widget='webStickyColumn'] > div > div > div:first-child",
         "injectionPlace": "end",
-        "template": "<div id='ozon-product-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 95px; min-width: 380px; width: 388px; margin-top: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>",
+        "template": "<div id='ozon-product-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 16px;'><img src='{{imageMainSrc}}' style='margin-top: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>",
         "template_2": "<div id='ozon-product-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -1055,7 +1055,7 @@
         "img_type": "url",
         "injectionBlock": "div.product-page__aside > div.product-page__aside-sticky > div.product-page__aside-container",
         "injectionPlace": "end",
-        "template": "<div id='wildberries-product-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 100px; min-width: 335px; width: 340px; margin-top: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 12px'></div></div>",
+        "template": "<div id='wildberries-product-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-top: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 12px'></div></div>",
         "template_2": "<div id='wildberries-product-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -1065,7 +1065,7 @@
         "url": ".ozon.ru",
         "img_type": "img",
         "replacementBlock": "#layoutPage div[data-widget='advBanner']",
-        "template": "<div id='ozon-carousel' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 12px'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 295px; min-width: 1400px; width: 1416px; margin-top: 3px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>",
+        "template": "<div id='ozon-carousel' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 16px; margin: 8px 0 12px'><img src='{{imageMainSrc}}' style='margin-top: 3px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'></div></div>",
         "template_2": "<div id='ozon-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -1075,7 +1075,7 @@
         "url": ".youtube.com",
         "img_type": "url",
         "replacementBlock": "#masthead-ad.ytd-browse",
-        "template": "<div id='youtube-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 150px; min-height: 100px; min-width: 150px; width: 1620px; margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 10px;'></div></div>",
+        "template": "<div id='youtube-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-bottom: 20px; transition: opacity 0.4s; opacity: 0; border-radius: 10px;'></div></div>",
         "template_2": "<div id='youtube-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -1086,7 +1086,7 @@
         "img_type": "url",
         "injectionBlock": "#twilight-sticky-header-root + div > div.simplebar-scroll-content",
         "injectionPlace": "start",
-        "template": "<div id='twitch-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 150px; min-height: 100px; min-width: 150px; width: 1620px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='twitch-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='twitch-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
     },
     {
@@ -1096,7 +1096,7 @@
         "url": ".*vkusvill.ru",
         "img_type": "url",
         "replacementBlock": "#js-header-top-btn",
-        "template": "<div id='vkusvill-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 80px; min-height: 80px; min-width: 1900px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='vkusvill-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='vkusvill-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1106,7 +1106,7 @@
         "url": ".*flowwow.com",
         "img_type": "url",
         "replacementBlock": "a.promo-banner-wrapper",
-        "template": "<div id='flowwow-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 50px; min-height: 50px; min-width: 1900px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='flowwow-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='flowwow-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1116,7 +1116,7 @@
         "url": ".*napopravku.ru",
         "img_type": "url",
         "replacementBlock": "section.main-search",
-        "template": "<div id='napopravku-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 280px; min-height: 280px; min-width: 1900px; width: 100%; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='napopravku-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='napopravku-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1126,7 +1126,7 @@
         "url": ".*smclinic.ru",
         "img_type": "url",
         "replacementBlock": "span.important-information-desk a.top-b",
-        "template": "<div id='smclinic-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 160px; min-height: 160px; min-width: 1200px; width: 1400px; border-radius: 16px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='smclinic-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='border-radius: 16px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='smclinic-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1137,7 +1137,7 @@
         "img_type": "url",
         "injectionBlock": "main[class*='Layout_mainPage']",
         "injectionPlace": "start",
-        "template": "<div id='4lapy-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 160px; min-height: 160px; min-width: 1200px; width: 1300px; margin-top: 106px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='4lapy-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='margin-top: 106px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='4lapy-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1147,7 +1147,7 @@
         "url": ".*medsi.ru",
         "img_type": "url",
         "replacementBlock": "div[class='med-info-item']",
-        "template": "<div id='medsi-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 364px; min-height: 364px; min-width: 1200px; width: 1300px; border-radius: 8px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='medsi-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='border-radius: 8px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='medsi-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1157,7 +1157,7 @@
         "url": ".*petshop.ru",
         "img_type": "url",
         "replacementBlock": "div.wrapper-for-main-slider > div.slick-initialized",
-        "template": "<div id='petshop-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 359px; min-height: 359px; min-width: 756px; width: 756px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='petshop-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='petshop-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1167,7 +1167,7 @@
         "url": ".*mts.ru",
         "img_type": "url",
         "replacementBlock": "div.mts16-footer__to-bottom-content > mts-widget-zone:nth-child(3)",
-        "template": "<div id='mts-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 100px; min-width: 1535px; width: 1535px; border-radius: 16px; margin-top: 30px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='mts-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='border-radius: 16px; margin-top: 30px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='mts-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1178,7 +1178,7 @@
         "img_type": "url",
         "injectionBlock": "div.main-content",
         "injectionPlace":"start",
-        "template": "<div id='t2-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 100px; min-height: 100px; min-width: 1136px; width: 1136px; border-radius: 32px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='t2-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='border-radius: 32px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='t2-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1188,7 +1188,7 @@
         "url": ".*megafon.ru",
         "img_type": "url",
         "replacementBlock": "div.main-page-esim-banner",
-        "template": "<div id='megafon-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 256px; min-height: 256px; min-width: 1400px; width: 1440px; border-radius: 24px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='megafon-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='border-radius: 24px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='megafon-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1198,7 +1198,7 @@
         "url": ".*technopark.ru",
         "img_type": "url",
         "replacementBlock": "div.index-reels-banner",
-        "template": "<div id='technopark-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 259px; min-height: 259px; min-width: 1433px; width: 1433px; border-radius: 16px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='technopark-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='border-radius: 16px; transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='technopark-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1209,7 +1209,7 @@
         "img_type": "url",
         "injectionBlock": "body > div > div > form > div:nth-child(1) > div:first-child",
         "injectionPlace": "end",
-        "template": "<div id='google-main-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 105px;min-height: 81.5px; min-width: 660px; width: 845px; transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></img></div>",
+        "template": "<div id='google-main-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 4px;'></img></div>",
         "template_2": "<div id='google-main-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1219,7 +1219,7 @@
         "url": ".*imba.shop",
         "img_type": "url",
         "replacementBlock": "#banner0",
-        "template": "<div id='imba-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 585px; min-height: 584px; min-width: 1903px; width: 1903px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='imba-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='imba-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1229,7 +1229,7 @@
         "url": ".*decathlonsport.ru",
         "img_type": "url",
         "replacementBlock": "#slideshow0 > div.owl-wrapper-outer",
-        "template": "<div id='decathlon-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 641px; min-height: 641px; min-width: 1140px; width: 1140px; transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template": "<div id='decathlon-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
         "template_2": "<div id='decathlon-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1239,7 +1239,7 @@
         "url": ".eldorado.ru",
         "img_type": "url",
         "replacementBlock": "main > div > div > div > div.Da.Ga > section.Ea > div.Zr > div",
-        "template": "<div id='eldorado-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 300px; min-height: 300px; min-width: 660px; width: 660px; transition: opacity 0.4s; opacity: 0; border-radius: 6px;'></img></div>",
+        "template": "<div id='eldorado-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 6px;'></img></div>",
         "template_2": "<div id='eldorado-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1249,7 +1249,7 @@
         "url": ".*desport.ru",
         "img_type": "url",
         "replacementBlock": "div[class*='MainBanner_MainBanner']",
-        "template": "<div id='desport-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 590px; min-height: 590px; min-width: 1304px; width: 1304px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
+        "template": "<div id='desport-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
         "template_2": "<div id='desport-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       },
       {
@@ -1260,7 +1260,7 @@
         "img_type": "url",
         "injectionBlock": ".playlists-iframe",
         "injectionPlace": "start",
-        "template": "<div id='turoktv-banner' class='turboboost-ord' style='position:relative; width: 100%; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='max-height: 590px; min-height: 590px; min-width: 1304px; width: 1304px; transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
+        "template": "<div id='turoktv-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
         "template_2": "<div id='turoktv-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
       }
 ]
