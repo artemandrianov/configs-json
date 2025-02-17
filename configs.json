@@ -1082,7 +1082,7 @@
         "id": "twitch-banner",
         "platform": "twitch",
         "type": "banner",
-        "url": ".twitch.tv",
+        "url": ".twitch.tv(?!\/.+)",
         "img_type": "url",
         "injectionBlock": "#twilight-sticky-header-root + div > div.simplebar-scroll-content",
         "injectionPlace": "start",
