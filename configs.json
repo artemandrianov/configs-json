@@ -1262,5 +1262,82 @@
         "injectionPlace": "start",
         "template": "<div id='turoktv-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 20px;'></img></div>",
         "template_2": "<div id='turoktv-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
-      }
+      },
+      {
+        "id": "citilink-product-banner",
+        "platform": "citilink-product",
+        "type": "banner",
+        "url": ".citilink.ru/product.*",
+        "img_type": "url",
+        "injectionBlock": "div.fresnel-greaterThan-tabletP > div > div[class*='app-catalog'] > div > div[class*='app-catalog'] > div > div:nth-child(2)",
+        "injectionPlace": "start",
+        "template": "<div id='citilink-product-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 16px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 6px'></div></div>",
+        "template_2": "<div id='citilink-product-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+    },
+    {
+        "id": "dns-product-banner",
+        "platform": "dns-product",
+        "type": "banner",
+        "url": ".dns-shop.ru/product.*",
+        "img_type": "url",
+        "injectionBlock": "div.product-card-top__additional-sale-wrapper",
+        "injectionPlace": "end",
+        "template": "<div id='dns-product-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: left; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-top: 15px; border-radius: 12px'></div></div>",
+        "template_2": "<div id='dns-product-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+    },
+    {
+        "id": "yandex-market-product-banner",
+        "platform": "yandex-market-product",
+        "type": "banner",
+        "url": ".*market.yandex.ru/product.*",
+        "img_type": "url",
+        "injectionBlock": "#cardAddButton > div:nth-child(2)",
+        "injectionPlace": "end",
+        "template": "<div id='yandex-market-product-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: left; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-bottom: 12px; border-radius: 20px'></div></div>",
+        "template_2": "<div id='yandex-market-product-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+    },
+    {
+        "id": "dns-cart-banner",
+        "platform": "dns-cart",
+        "type": "banner",
+        "url": ".dns-shop.ru/cart.*",
+        "img_type": "url",
+        "injectionBlock": "#total-amount",
+        "injectionPlace": "end",
+        "template": "<div id='dns-cart-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: left; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-top: 20px; border-radius: 12px'></div></div>",
+        "template_2": "<div id='dns-cart-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+    },
+    {
+        "id": "citilink-cart-banner",
+        "platform": "citilink-cart",
+        "type": "banner",
+        "url": ".citilink.ru/order/",
+        "img_type": "url",
+        "injectionBlock": "div[data-meta-name='BasketSummary'] > div:first-child > div:first-child",
+        "injectionPlace": "end",
+        "template": "<div id='citilink-cart-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 16px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0;'></div></div>",
+        "template_2": "<div id='citilink-cart-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+    },
+    {
+        "id": "ozon-cart-banner",
+        "platform": "ozon-cart",
+        "type": "banner",
+        "url": ".ozon.ru/cart",
+        "img_type": "url",
+        "injectionBlock": "div[data-widget='stickyContainer']",
+        "injectionPlace": "end",
+        "template": "<div id='ozon-cart-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: left; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-top: 10px; border-radius: 24px'></div></div>",
+        "template_2": "<div id='ozon-cart-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+    },
+    {
+        "id": "wildberries-cart-banner",
+        "platform": "wildberries-cart",
+        "type": "banner",
+        "url": ".wildberries.ru/.*/basket",
+        "img_type": "url",
+        "injectionBlock": "div.basket-form__sidebar > div",
+        "injectionPlace": "end",
+        "template": "<div id='wildberries-cart-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: left; cursor: pointer;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; margin-top: 20px; border-radius: 16px'></div></div>",
+        "template_2": "<div id='wildberries-cart-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
+    }
 ]
