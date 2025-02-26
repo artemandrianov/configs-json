@@ -1269,7 +1269,7 @@
         "type": "banner",
         "url": ".citilink.ru/product.*",
         "img_type": "url",
-        "injectionBlock": "div.fresnel-greaterThan-tabletP > div > div[class*='app-catalog'] > div > div[class*='app-catalog'] > div > div:nth-child(2)",
+        "injectionBlock": "div.fresnel-greaterThan-tabletP > div > div[class*='app-catalog'] > div > div[class*='StyledBottomContentWrapper'] > div > div:nth-child(2)",
         "injectionPlace": "start",
         "template": "<div id='citilink-product-banner' class='turboboost-ord' style='position:relative; display: flex; justify-content: center; cursor: pointer; border-radius: 16px;'><img src='{{imageMainSrc}}' style='transition: opacity 0.4s; opacity: 0; border-radius: 6px'></div></div>",
         "template_2": "<div id='citilink-product-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>"
