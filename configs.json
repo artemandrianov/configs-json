@@ -23,7 +23,7 @@
         "platform": "ozon",
         "type": "banner",
         "url": ".ozon.ru(|\\W+__rr=1)(?!/.+)",
-        "img_type": "b64",
+        "img_type": "url",
         "injectionBlock": "div[data-widget='wallpaper']:nth-child(2) div[data-widget='container']",
         "injectionPlace": "start",
         "template_2": "<div id='ozon-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>",
