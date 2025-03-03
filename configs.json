@@ -417,7 +417,7 @@
         "platform": "ok",
         "img_type": "url",
         "type": "banner",
-        "url": ".*ok.ru/feed.*",
+        "url": ".*ok.ru(\/feed|)(?!\/.+)",
         "injectionBlock": "#hook_Block_MainFeedsContent",
         "injectionPlace": "start",
         "template_2": "<div id='ok-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>",
