@@ -16,7 +16,7 @@
         "img_type": "url",
         "replacementBlock": "div.main-page__banner.banner",
         "template_2": "<div id='wildberries-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>",
-        "content_attrs": "style='transition: opacity 0.4s; opacity: 0; border-radius: 16px'"
+        "content_attrs": "style='margin-bottom: 12px; transition: opacity 0.4s; opacity: 0; border-radius: 16px'"
     },
     {
         "id": "ozon-banner",
