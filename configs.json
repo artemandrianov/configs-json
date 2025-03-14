@@ -1291,7 +1291,7 @@
         "type": "banner",
         "url": ".*market.yandex.ru/product.*",
         "img_type": "url",
-        "injectionBlock": "#cardAddButton > div:nth-child(2)",
+        "injectionBlock": "#cardAddButton > div:first-child",
         "injectionPlace": "end",
         "template_2": "<div id='yandex-market-product-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>",
         "content_attrs": "style='transition: opacity 0.4s; opacity: 0; margin-bottom: 12px; border-radius: 20px'"
