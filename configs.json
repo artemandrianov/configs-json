@@ -35,9 +35,10 @@
         "img_type": "url",
         "type": "carousel",
         "url": "lamoda.ru/.*-home/",
-        "replacementBlock": "main.width-wrapper > div > div[class*='mainBanner']:first-child",
+        "injectionBlock": "#vue-root > div > main",
+        "injectionPlace": "start",
         "template_2": "<div id='lamoda-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>",
-        "content_attrs": "style='transition: opacity 0.4s; opacity: 0; border-radius: 16px'"
+        "content_attrs": "style='transition: opacity 0.4s; opacity: 0; margin-top: 10px'"
     },
     {
         "id": "onetwotrip-carousel",
