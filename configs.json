@@ -1240,7 +1240,7 @@
         "type": "banner",
         "url": ".eldorado.ru",
         "img_type": "url",
-        "replacementBlock": "main > div > div > div > div > div[data-dy] + section > div > div",
+        "replacementBlock": "main > div > div > div > div > section.elyc > div > div",
         "template_2": "<div id='eldorado-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>",
         "content_attrs": "style='transition: opacity 0.4s; opacity: 0; border-radius: 6px;'"
     },
