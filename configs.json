@@ -504,7 +504,7 @@
         "url": ".mvideo.ru",
         "replacementBlock": "mvid-promotions-carousel",
         "template_2": "<div id='mvideo-carousel' class='turboboost-ord' {{attrs}}>{{content}}</div>",
-        "content_attrs": "style='border-radius: 10px; transition: opacity 0.4s; opacity: 0;'"
+        "content_attrs": "style='width: 100%; min-height:280px; border-radius: 10px; transition: opacity 0.4s; opacity: 0;'"
     },
     {
         "id": "interia-banner",
