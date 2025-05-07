@@ -1098,7 +1098,7 @@
         "img_type": "url",
         "replacementBlock": "#js-header-top-btn",
         "template_2": "<div id='vkusvill-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>",
-        "content_attrs": "style='transition: opacity 0.4s; opacity: 0;'"
+        "content_attrs": "style='width: 100%; transition: opacity 0.4s; opacity: 0;'"
     },
     {
         "id": "flowwow-banner",
