@@ -1108,7 +1108,7 @@
         "img_type": "url",
         "replacementBlock": "a.promo-banner-wrapper",
         "template_2": "<div id='flowwow-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>",
-        "content_attrs": "style='transition: opacity 0.4s; opacity: 0;'"
+        "content_attrs": "style='width: 100vw; transition: opacity 0.4s; opacity: 0;'"
     },
     {
         "id": "napopravku-banner",
