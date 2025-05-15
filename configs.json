@@ -176,6 +176,7 @@
         "type": "banner",
         "url": ".*ya(ndex.ru|.ru)/search.*",
         "injectionBlock": "div.serp-list_right_yes",
+        "injectionPlace": "end",
         "template_2": "<div id='yandex-search-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>",
         "content_attrs": "style='transition: opacity 0.4s; opacity: 0; border-radius: 16px;'"
     },
