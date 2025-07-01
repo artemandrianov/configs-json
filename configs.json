@@ -1208,7 +1208,7 @@
         "id": "google-main-banner",
         "platform": "google-main",
         "type": "banner",
-        "url": ".google.com.*",
+        "url": ".google.(com|ru)(?!/search)",
         "img_type": "url",
         "injectionBlock": "body > div > div > form > div:nth-child(1) > div:first-child",
         "injectionPlace": "end",
