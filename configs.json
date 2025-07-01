@@ -451,7 +451,7 @@
         "platform": "google",
         "img_type": "url",
         "type": "banner",
-        "url": ".google.(com|ru).*",
+        "url": ".google.(com|ru)/search.*",
         "injectionBlock": "#center_col + div",
         "injectionPlace": "end",
         "template_2": "<div id='google-banner' class='turboboost-ord' {{attrs}}>{{content}}</div>",
